@@ -1,0 +1,100 @@
+<!doctype html>
+
+<head>
+	<title>Coming Soon - Sicanstudios</title>		
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="./images/favicon.png" />
+	<meta name="copyright" content="Copyright by Sicanstudios.com" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta name="description" content="Design &amp; Development - Sicanstudios" />
+	<meta name="keywords" content="web design, design, website, development, sicanstudios, cyprus"/>
+	<meta name="Author" content="Sicanstudios.com" />
+	<link rel="apple-touch-icon-precomposed" href="./images/apple-touch-icon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,400italic' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="./style/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="Website design and development from Cyprus" href="http://feeds.feedburner.com/sicanstudios/" />
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<a href="http://sicanstudios.com" class="title" title="Back to homepage">SicanStudios</a>
+
+			<div class="logo">
+				<img src="./images/logo.svg" alt="sicanstudios logo" />
+
+				<div class="links">
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://store.sicanstudios.com" title="Store">Store</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+				</div>
+			</div>
+
+			<span>Design &amp; Development</span>
+		</div><!--end div_header-->
+
+		<div id="content">
+
+			<div id="error"><img src="./images/soon.jpg" alt="coming soon" /><h1>Coming Soon!</h1></div>
+
+			<footer>
+				<nav>
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://store.sicanstudios.com" title="Store">Store</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+					<a href="#" title="Back to top" class="to_top">Back to top</a>
+					<a href="http://twitter.com/sican" title="Twitter">Twitter</a>
+					<a href="http://dribbble.com/sican" title="Dribbble">Dribbble</a>
+					<a href="http://flickr.com/sican" title="Flickr">Flickr</a>
+					<a href="http://vimeo.com/sican" title="Vimeo">Vimeo</a>
+				</nav>
+
+				<div class="copyright">
+					All content, code, and designs &copy; by Alex Cican, 2012. Don&#8217;t steal, create your own.
+				</div>
+			</footer>
+		</div>
+	</div>
+
+
+	<!-- Load jQuery script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+			/* iOS re-orientation fix */
+			var viewportmeta = document.querySelectorAll('meta[name="viewport"]')[0];
+			if (viewportmeta) {
+				viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+
+				document.body.addEventListener('gesturestart', function() {
+					viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+				}, false);
+			}
+		}
+
+		/* hides Safari address bar on iPhone */
+		if (navigator.userAgent.match(/iPhone/i)) {
+			window.addEventListener("load",function() {
+				setTimeout(function() {
+					window.scrollTo(0, 1);
+				}, 500);
+			});
+		}
+	</script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6273751-7']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>

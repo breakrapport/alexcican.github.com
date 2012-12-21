@@ -1,0 +1,174 @@
+<!doctype html>
+
+<head>
+	<title>Brian JC Osborne - Sicanstudios</title>		
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="../images/favicon.png" />
+	<meta name="copyright" content="Copyright by Sicanstudios.com" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta name="description" content="Design &amp; Development - Sicanstudios" />
+	<meta name="keywords" content="web design, design, website, development, sicanstudios, cyprus"/>
+	<meta name="Author" content="Sicanstudios.com" />
+	<link rel="apple-touch-icon-precomposed" href="../images/apple-touch-icon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../style/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="Website design and development from Cyprus" href="http://feeds.feedburner.com/sicanstudios/" />
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<a href="http://sicanstudios.com" class="title" title="Back to homepage">SicanStudios</a>
+
+			<div class="logo">
+				<img src="../images/logo.svg" alt="sicanstudios logo" />
+
+				<div class="links">
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://store.sicanstudios.com" title="Store">Store</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+				</div>
+			</div>
+
+			<span>Design &amp; Development</span>
+		</div><!--end div_header-->
+
+		<div id="content">
+
+			<div id="portfolio">
+				<h1>Brian JC Osborne</h1>
+				<h2>Brian is a photographer living in Cyprus. He wanted a professional, simple website to display his photographs in a Polaroid style. He already had a concept idea in mind and all I did was code it and bring it to life.</h2>
+
+				<div class="details">
+					<p><span>CMS</span> <span>Custom build</span></p>
+					<p><span>Tools used</span> <span>Photoshop, Notepad, HTML 5, PHP, CSS 3, jQuery</span></p>
+					<a href="http://brianjcosborne.com" title="Visit Website" target="_blank" class="button">Visit Website</a>
+					<div>
+						<span>Client says</span>
+						<img src="../images/brian.jpg" alt="brian" />
+						<p class="text">&#8220;I wanted a website designed my way, simple and captivating. Alex, understood my needs straight away and provided me with creative suggestions. He has a deep understanding of the web and the tools needed to build a professional website.&#8221; - Brian JC Osborne</p>
+					</div>
+				</div>
+
+				<h2>Screenshot of the website</h2>
+				<p><a href="../images/work/brianjcosborne/brianjcosborne-homepage.jpg" class="img"><img src="../images/work/brianjcosborne/brianjcosborne-homepage-small.jpg" alt="brian jc osborne website" title="Brian JC Osborne website" /></a></p>
+				<figcaption>Brian JC Osborne&#8217;s homepage</figcaption>
+
+				<h2>CMS</h2>
+				<p>The website was coded in HTML5 and CSS 3. The client specifically ordered that no CMS (WordPress, Joomla, etc.) should be used. This proved to be a challenge for me, because I wanted to make it easy for the client to update and maintain his website. The solution I came up with was this one:</p>
+
+				<p><img src="../images/work/brianjcosborne/categories.jpg" alt="tree diagram" title="Tree diagram" /></p>
+				<figcaption>The tree diagram of the photo gallery</figcaption>
+
+				<p>Have a <code>categories</code> folder and inside it, the folders for each gallery. Inside those folders, the respective images would be uploaded via FTP. The thumbnail for each category that is displayed on the homepage, i.e. the cover, was a jpeg named <code>category_thumb.jpg</code>. That filename would be ignored when displaying the images of that folder in gallery mode.</p>
+
+				<p>Using PHP to scan the <code>categories</code> directory for the folders meant that it was very easy to create new categories. The client just had to create a new folder, give it a name and add a jpeg <code>category_thumb.jpg</code> inside it, for the cover.</p>
+
+				<p>Lastly, with the use of PHP, the images were sorted in LIFO order (Last-In-First-Out) so that the latest uploaded image is the first image that appears in the website&#8217;s gallery.</p>
+
+				<h2>Technical stuff</h2>
+				<p>The name of the image file (ex: <code>chief_of_police.jpg</code>) is the name that is displayed on the lower right of the Polaroid design. The format doesn&#8217;t matter. The name is automatically capitalised and spaced.</p>
+
+				<p><img src="../images/work/brianjcosborne/name-photo.jpg" alt="polaroid name" title="Polaroid Name" /></p>
+				<figcaption>The title of photograph under it, inside a Polaroid style layout</figcaption>
+
+				<p>To make it even easier to update the website, the thumbnails and photographs are generated from one image and cached automatically using PHP. Aside from that, whether the photograph uploaded via FTP inside the folder is of the exact size, <code>315px &times; 315px</code>, or <code>5200px &times; 2950px</code> it doesn&#8217;t matter. The script takes the image and resizes it then displays it on the page. It&#8217;s basically a very convenient drag-and-drop system.</p>
+
+				<p>Moreover, some images uploaded might not have the correct square ratio for a Polaroid feel. The script takes the uploaded image and crops it in the centre making it a square.</p>
+
+				<p>The Polaroid border and duct-tape is added later with CSS3. No images were used, aside from the textured background, for the styling of the design.</p>
+
+				<h2>Gallery page</h2>
+				<p>You can browse the photos of the gallery with the mouse, by clicking on the arrows next to each photograph. You can also browse using your keyboard arrows. Even more, on touch devices, such as the iPhone or iPad, you can browse by swiping your finger left or right over the image. This functionality was implemented using the very useful <a href="http://swipejs.com" rel="nofollow" target="_blank">Swipe.js plugin</a>.</p>
+
+				<p><img src="../images/work/brianjcosborne/photo-layout.jpg" alt="photo layout" title="Photo layout"/></p>
+				<figcaption>You can browse the photos with a mouse or using the keyboard arrow keys</figcaption>
+				
+				<h2 class="title">Keyboard shortcuts</h2>
+				<p>Besides using the keyboard&#8217;s arrow keys for browsing the photos, a keyboard navigation was implemented. So, pressing <code>&lt;h&gt;</code> takes you &#8220;home&#8221;, <code>&lt;c&gt;</code> takes you to the &#8220;contact&#8221; page, <code>&lt;f&gt;</code> takes you to the &#8220;faces&#8221; gallery, and so on. A useful functionality for a website to include.</p>
+
+				<h2 class="title">Accessibility</h2>
+				<p>In matters of accessibility all images were added an <code>alt</code> tag, descriptive coding, a sitemap of the website, visual feedback (see next paragraph), and more. Obviously, the gallery page relies heavily on JavaScript in order to function properly. But if the user has JavaScript disabled, she can still browse the website and see the photos in the gallery. The large photos are all displayed in a single column.</p>
+
+				<p>Visual feedback when hovering over each link, button or thumbnail was implemented. When hovered, the link changes colour, the buttons change in opacity and the thumbnails move up. The selected thumbnail has a black border, instead of a white, so that the user knows which thumbnail they&#8217;re currently viewing.</p>
+
+				<p>I presented the client with a different layout for a responsive mobile theme but he didn&#8217;t like the small screen design, so the website is not responsive, thus having only one layout for all the devices.</p>
+
+				<p>In conclusion, though the website has a simple layout, this project proved challenging on the back-end side. In the end, I believe the solution I came up with for the gallery and updating the website is simple enough and makes it easy for the client to update it. As always, I learned a lot from this project that will prove useful in the future.</p>
+
+				<div class="next_previous">
+					<a href="cartalyst.html" title="Cartalyst">Cartalyst</a>
+					<a href="alt-foundry.html" title="Alt Foundry">Alt Foundry</a>
+				</div>
+			</div>
+
+			<footer>
+				<nav>
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://store.sicanstudios.com" title="Store">Store</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+					<a href="#" title="Back to top" class="to_top">Back to top</a>
+					<a href="http://twitter.com/sican" title="Twitter">Twitter</a>
+					<a href="http://dribbble.com/sican" title="Dribbble">Dribbble</a>
+					<a href="http://flickr.com/sican" title="Flickr">Flickr</a>
+					<a href="http://vimeo.com/sican" title="Vimeo">Vimeo</a>
+				</nav>
+
+				<div class="copyright">
+					All content, code, and designs &copy; by Alex Cican, 2012. Don&#8217;t steal, create your own.
+				</div>
+			</footer>
+		</div>
+	</div>
+
+
+	<!-- Load jQuery script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+			/* iOS re-orientation fix */
+			var viewportmeta = document.querySelectorAll('meta[name="viewport"]')[0];
+			if (viewportmeta) {
+				viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+				document.body.addEventListener('gesturestart', function() {
+					viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+				}, false);
+			}
+		}
+
+		/* hides Safari address bar on iPhone */
+		if (navigator.userAgent.match(/iPhone/i)) {
+			window.addEventListener("load",function() {
+				setTimeout(function() {
+					window.scrollTo(0, 1);
+				}, 500);
+			});
+		}
+
+		/* show the refresh quote icon when JS enabled (hidden by default) */
+		$("#quote a").css("display", "inline-block");
+
+		/* show/hide the text on hover bigger image */
+		$(".img").mouseenter(function() {
+			$(this).prepend($("<span id='click_for_bigger'>Click for bigger image</span>").fadeIn(300));
+		}).mouseleave(function() {
+			$("#click_for_bigger").fadeOut(300, function() { $(this).remove(); });
+		})
+	</script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6273751-7']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>

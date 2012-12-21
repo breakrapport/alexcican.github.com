@@ -1,0 +1,176 @@
+<!doctype html>
+
+<head>
+	<title>Cartalyst - Sicanstudios</title>		
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="../images/favicon.png" />
+	<meta name="copyright" content="Copyright by Sicanstudios.com" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta name="description" content="Design &amp; Development - Sicanstudios" />
+	<meta name="keywords" content="web design, design, website, development, sicanstudios, cyprus"/>
+	<meta name="Author" content="Sicanstudios.com" />
+	<link rel="apple-touch-icon-precomposed" href="../images/apple-touch-icon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../style/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="Website design and development from Cyprus" href="http://feeds.feedburner.com/sicanstudios/" />
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<a href="http://sicanstudios.com" class="title" title="Back to homepage">SicanStudios</a>
+
+			<div class="logo">
+				<img src="../images/logo.svg" alt="sicanstudios logo" />
+
+				<div class="links">
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://store.sicanstudios.com" title="Store">Store</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+				</div>
+			</div>
+
+			<span>Design &amp; Development</span>
+		</div><!--end div_header-->
+
+		<div id="content">
+
+			<div id="portfolio">
+				<h1>Cartalyst</h1>
+				<h2>Cartalyst is developer centric, opensource ecommerce engine with a strong focus on exemplary documentation, community support, and framework. They hired me to design and develop their website.</h2>
+
+				<div class="details">
+					<p><span>CMS</span> <span>Yes, Wordpress. Framework: FuelPHP/Laravel</span></p>
+					<p><span>Tools used</span> <span>Photoshop, SublimeText 2, HTML 5, LESS, PHP, jQuery, GitHub</span></p>
+					<a href="http://cartalyst.com" title="Visit Website" target="_blank" class="button">Visit Website</a>
+					<div>
+						<span>Client says</span>
+						<img src="../images/dan.jpg" alt="dan" />
+						<p class="text">&#8220;Easily one of the best designers I have had the pleasure of working with Alex met and exceeded our expectations. He continues to provide essential guidance to our online presence and has established himself as an experienced, dedicated, and knowledgeable member of the Cartalyst team.&#8221; - Dan Syme</p>
+					</div>
+				</div>
+
+				<h2>Technical Details</h2>
+				<p>The website was coded in HTML5 and CSS3. As a backend, FuelPHP (a PHP framework) was used. They later switched to Laravel. For the blog they use WordPress. The layout had to be transformed into a WordPress theme as well.</p>
+
+				<p>The complete website has many sections (some not yet implemented) like advocate, features, roadmap, blog, forums, marketplace, user registration, profiles, documentation, job board, and others.</p>
+
+				<p><a href="../images/work/cartalyst/cartalyst-homepage.jpg" class="img"><img src="../images/work/cartalyst/cartalyst-homepage-small.jpg" alt="cartalyst homepage" title="Cartalyst Homepage"/></a></p>
+				<figcaption>The homepage of Cartalyst</figcaption>
+
+				<h2>Design</h2>
+				<p>For the design of the website, Dan (co-founder) pretty much gave me a blank canvas to impress him with my ideas. They wanted a simple, clean (without many gradients or 3D effects) design that would reflect their philosophy. The only requirement was to use a purple shade (their signature colour) for headings and images.</p>
+
+				<p><a href="../images/work/cartalyst/homepage-iterations.jpg" class="img"><img src="../images/work/cartalyst/homepage-iterations-small.jpg" alt="homepage iterations" title="Homepage Iterations"/></a></p>
+				<figcaption>Some of the iterations created for the homepage only</figcaption>
+
+				<p>After many iterations, and taking into account many variables, we finally decided how each section of the website would look like. It was time to code the design.</p>
+
+				<h2>Coding</h2>
+				<p>The website should be responsive, catering for three primary widths: small (mobile), medium (tablet) and large (desktop). For the CSS, I decided that each media query would rely on the “mobile-first” (the global styling if you will) and then inside the query make special changes. I ended up using four media queries (five with “mobile-first”):</p>
+
+				<ol>
+					<li>MOBILE FIRST</li>
+					<li>BELOW 500px</li>
+					<li>ABOVE 500px</li>
+					<li>ABOVE 830px</li>
+					<li>ABOVE 1000px</li>
+				</ol>
+
+				<p><a href="../images/work/cartalyst/responsive.jpg" class="img"><img src="../images/work/cartalyst/responsive-small.jpg" alt="different versions of website" title="Different versions of website"/></a></p>
+				<figcaption>The different version of the website depending on the device</figcaption>
+
+				<p>The reason for that was that breakpoints on each page at certain widths were not consistent. So I needed finer control of the layout. Even if little changes are made from a 830px layout to a 1000px layout.</p>
+
+				<p>Using LESS for writing the CSS code allowed me to do stuff like:</p>
+
+				<pre><code>color: lighten(@link-color, 10%);<br/>.rounded-corners(3px);</code></pre>
+
+				<p>In the &#8220;Features&#8221; section of the website a content slider was implemented. You can slide content by clicking on the tabs, the buttons below the content, your keyboard arrows, and on mobile devices by swiping your finger. This awesome slider (which is future-proof) couldn’t have been implemented without the very useful <a href="https://github.com/bradbirdsall/Swipe/tree/swipe2" rel="nofollow" target="_blank">Swipe2 JavaScript plugin</a>.</p>
+
+				<p><img src="../images/work/cartalyst/features.jpg" alt="features" title="Browsing Features"/></p>
+				<figcaption>You can browse the features&#8217; section of Cartalyst in many ways</figcaption>
+
+				<h2>Accessibility</h2>
+				<p>In matters of accessibility all images were added an &#8220;alt&#8221; tag, descriptive coding, visual feedback (see next paragraph), “skip to content” for screen readers, and more. One major request from the client was IE 8 support. This meant that all the pages of the website had to be restructured and “hacked” to make them consistent and looking the same on Internet Explorer. Thankfully, the new version of the plugin used for the features slider supported IE 8.</p>
+
+				<p>Visual feedback when hovering over each link, button or thumbnail was implemented. When hovered, the links and the buttons change colour, and on focusing the input fields they become darker with a glowing edge.</p>
+
+				<p>In conclusion, as with every project I finish, I learned a lot from it. A big lesson was how to rely on GitHub heavily to push new changes to the website. I had a GitHub account since November 2011 but I never used it that extensively. This was a confidence booster and allowed me to <a href="http://blog.sicanstudios.com/post/guide-hosting-website-dropbox-github">cancel my hosting and move my websites to GitHub</a>.</p>
+
+				<div class="next_previous">
+					<a href="experiments.html" title="CSS 3 Experiments">CSS 3 Experiments</a>
+					<a href="brianjcosborne.html" title="Brian JC Osborne">Brian JC Osborne</a>
+				</div>
+			</div>
+
+			<footer>
+				<nav>
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://store.sicanstudios.com" title="Store">Store</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+					<a href="#" title="Back to top" class="to_top">Back to top</a>
+					<a href="http://twitter.com/sican" title="Twitter">Twitter</a>
+					<a href="http://dribbble.com/sican" title="Dribbble">Dribbble</a>
+					<a href="http://flickr.com/sican" title="Flickr">Flickr</a>
+					<a href="http://vimeo.com/sican" title="Vimeo">Vimeo</a>
+				</nav>
+
+				<div class="copyright">
+					All content, code, and designs &copy; by Alex Cican, 2012. Don&#8217;t steal, create your own.
+				</div>
+			</footer>
+		</div>
+	</div>
+
+
+	<!-- Load jQuery script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+			/* iOS re-orientation fix */
+			var viewportmeta = document.querySelectorAll('meta[name="viewport"]')[0];
+			if (viewportmeta) {
+				viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+				document.body.addEventListener('gesturestart', function() {
+					viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+				}, false);
+			}
+		}
+
+		/* hides Safari address bar on iPhone */
+		if (navigator.userAgent.match(/iPhone/i)) {
+			window.addEventListener("load",function() {
+				setTimeout(function() {
+					window.scrollTo(0, 1);
+				}, 500);
+			});
+		}
+
+		/* show the refresh quote icon when JS enabled (hidden by default) */
+		$("#quote a").css("display", "inline-block");
+
+		/* show/hide the text on hover bigger image */
+		$(".img").mouseenter(function() {
+			$(this).prepend($("<span id='click_for_bigger'>Click for bigger image</span>").fadeIn(300));
+		}).mouseleave(function() {
+			$("#click_for_bigger").fadeOut(300, function() { $(this).remove(); });
+		})
+	</script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6273751-7']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>
