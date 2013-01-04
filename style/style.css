@@ -680,6 +680,10 @@ nav {
 		padding-bottom: 1px;
 	}
 
+	#header .title:hover {
+		color: #ddd !important;
+	}
+
 	#header .logo {
 		width: 20%;
 		margin: 0 10%;
