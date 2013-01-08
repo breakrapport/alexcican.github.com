@@ -58,9 +58,9 @@ Next we add the cookie code. There are two parts to this: one that checks the co
 			$('.message h3').css("display", "block");
 		};
 
-Before we close the script tag, we have to add the cookie that will hide the first message. We add it at the end, because if we were to add it before the code that checks (see above) the cookie, it would hide the first message from the beginning. Adding it at the end ensures that the message will be hidden the next time the page is loaded.
+Before we close the script tag, we have to add the cookie that will hide the first message. We add it at the end, because if we were to add it before the code that checks (see above) the cookie, it would hide the first message from the beginning. Adding it at the end ensures that the message will be hidden the next time the page is loaded. It’s set to expire in 7 days.
 
-		$.cookie('welcome', 'hide');
+		$.cookie('welcome', 'hide', {expires: 7 });
 	});
 
 The complete code for the first example:
@@ -77,7 +77,7 @@ The complete code for the first example:
 				$('.message h3').css("display", "block");
 			};
 
-			$.cookie('welcome', 'hide');
+			$.cookie('welcome', 'hide', {expires: 7 });
 		});
 	</script>
 
@@ -121,7 +121,7 @@ Inside the function we will be using classes to identify when a user has clicked
 			n();
 		});
 
-		$.cookie('welcome', 'clicked');
+		$.cookie('welcome', 'clicked', {expires: 7 });
 	}
 
 But wait, we are not done! We need to check if the cookie has the clicked variable attached to it:
@@ -154,7 +154,7 @@ The complete code for the second example:
 					n();
 				});
 
-				$.cookie('welcome', 'clicked'); }
+				$.cookie('welcome', 'clicked', {expires: 7 }); }
 				return false;
 			});
 
