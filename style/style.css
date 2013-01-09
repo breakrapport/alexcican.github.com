@@ -24,7 +24,7 @@ body {
 	font-size: 14px;
 	line-height: 1.8em;
 	background: #181818;
-	color: #ddd;
+	color: #ccc;
 }
 
 ::-moz-selection {
@@ -48,7 +48,7 @@ a, a:visited, img {
 }
 
 a:hover {
-	color: #ddd;
+	color: #ccc;
 	display: block-inline;
 	cursor: pointer;
 	border-color: #ffd200;
@@ -204,7 +204,7 @@ a[rev="footnote"]:after {
 
 /* hover effects for footnotes */
 a[rel="footnote"]:hover, a[rev="footnote"]:hover {
-	color: #ddd;
+	color: #ccc;
 	border-bottom: solid 1px #ffd200;
 }
 
@@ -270,7 +270,7 @@ header h2:before {
 }
 
 .button:hover, .read-more:hover {
-	background: #ddd;
+	background: #ccc;
 }
 
 /* fix equal vertical spacing issue */
@@ -371,7 +371,7 @@ figcaption {
 }
 
 .hire_me a:hover {
-	background: #ddd;
+	background: #ccc;
 }
 
 .bio>img:first-child {
@@ -598,6 +598,18 @@ figcaption {
 	transform: rotate(-180deg);
 }
 
+.gist {
+	font-family: 'Menlo', 'Consolas', monospace, 'Courier New';
+	font-size: 0.928em;
+	font-weight: bold;
+	white-space: pre-wrap;			 /* css-3 */
+	white-space: -moz-pre-wrap !important;	/* Mozilla, since 1999 */
+	white-space: -pre-wrap;			 /* Opera 4-6 */
+	white-space: -o-pre-wrap;		 /* Opera 7 */
+	word-wrap: break-word;			 /* Internet Explorer 5.5+ */
+	background: #1c1c1c !important;
+}
+
 /*** FOOTER ***/
 /**************/
 
@@ -682,7 +694,7 @@ nav {
 	}
 
 	#header .title:hover {
-		color: #ddd !important;
+		color: #ccc !important;
 	}
 
 	#header .logo {
