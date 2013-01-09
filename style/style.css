@@ -607,7 +607,7 @@ figcaption {
 	color: #eaeaea !important;
 }
 
-.gist .gist-meta a:last-child, .gist .gist-meta a:nth-last-child(2) {
+.gist .gist-meta a:first-child, .gist .gist-meta a:nth-child(2) {
 	color: #336699 !important;
 }
 
