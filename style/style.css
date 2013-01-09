@@ -605,6 +605,7 @@ figcaption {
 
 .gist .gist-meta {
 	color: transparent !important;
+	cursor: default;
 }
 
 .gist .gist-meta a:last-child, .gist .gist-meta a:nth-last-child(2) {
