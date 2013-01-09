@@ -295,21 +295,22 @@ header h2:before {
 	padding: 0;
 }
 
-.archive-post p a {
+.archive-post p a, .recent-articles p a {
 	display: block;
 	border: none !important;
 	padding: 0.9em 0;
 	position: relative;
 }
 
-.archive-post p a span {
+.archive-post p a span, .recent-articles p a span {
 	color: #555;
 	font-size: 0.875em;
 }
 
-.archive-post p a:hover {
+.archive-post p a:hover, .recent-articles p a:hover {
 	background: #ffd200;
 	color: #111 !important;
+	padding-left: 10px;
 }
 
 .twitter-mention-button {
