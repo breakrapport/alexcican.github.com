@@ -291,7 +291,7 @@ header h2:before {
 }
 
 /* removes padding from paragraph and adds it to link (below) */
-.archive-post p {
+.archive-post p, .recent-articles p {
 	padding: 0;
 }
 
@@ -310,7 +310,7 @@ header h2:before {
 .archive-post p a:hover, .recent-articles p a:hover {
 	background: #ffd200;
 	color: #111 !important;
-	padding-left: 10px;
+	padding-left: 16px;
 }
 
 .twitter-mention-button {
