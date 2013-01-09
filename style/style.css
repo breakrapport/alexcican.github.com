@@ -603,8 +603,12 @@ figcaption {
 	font-size: 0.928em;
 }
 
-.gist .line_data {
-	background: #1c1c1c !important;
+.gist .gist-meta {
+	color: #eaeaea;
+}
+
+.gist .gist-meta a:last-child, .gist .gist-meta a:nth-last-child(1) {
+	color: #eaeaea !important;
 }
 
 /*** FOOTER ***/
