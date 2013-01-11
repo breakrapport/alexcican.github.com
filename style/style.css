@@ -38,28 +38,34 @@ body {
 }
 
 a, a:visited, img {
-	-moz-transition: color 0.6s, background 0.6s, box-shadow 0.4s;
-	-webkit-transition: color 0.6s, background 0.6s, box-shadow 0.4s;
-	-o-transition: color 0.6s, background 0.6s, box-shadow 0.4s;
-	transition: color 0.6s, background 0.6s, box-shadow 0.4s;
+	-moz-transition: color 0.5s, background 0.5s, box-shadow 0.4s;
+	-webkit-transition: color 0.5s, background 0.5s, box-shadow 0.4s;
+	-o-transition: color 0.5s, background 0.5s, box-shadow 0.4s;
+	transition: color 0.5s, background 0.5s, box-shadow 0.4s;
 	color: #ffd200;
 	text-decoration: none;
-	border-bottom: solid 1px transparent;
+	border-bottom: solid 1px #333;
+}
+
+a:visited {
+	color: #cdaf24;
 }
 
 a:hover {
 	color: #ccc;
 	display: block-inline;
 	cursor: pointer;
-	border-color: #ffd200;
+	border-color: #333;
+	background: #222;
 }
 
-a.img {
+a.img, a.img:hover, img {
 	border: none !important;
+	background: none !important;
 }
 
 a.img:hover img, .design>a:first-child:hover img {
-	box-shadow: 0 0 0 2px #ffd200;
+	box-shadow: 0 0 0 1px #ffd200;
 }
 
 #container {
@@ -158,6 +164,8 @@ blockquote em, pre {
 
 .links a {
 	margin: 0 1%;
+	background: none;
+	border: none;
 }
 
 /*** BLOG CONTENT ***/
@@ -241,6 +249,7 @@ a[rel="footnote"]:hover, a[rev="footnote"]:hover {
 	width: 40px;
 	border: none !important;
 	color: #333 !important;
+	background: none;
 }
 
 #quote a:after {
@@ -252,6 +261,10 @@ a[rel="footnote"]:hover, a[rev="footnote"]:hover {
 	top: -1px;
 	left: 0;
 	text-indent: 0;
+}
+
+#quote a:hover {
+	color: #444 !important;
 }
 
 header h2 {
@@ -357,6 +370,7 @@ figcaption {
 	width: 100%;
 	display: inline-block;
 	border: none;
+	background: none;
 	margin-top: 0.55em;
 }
 
@@ -651,8 +665,14 @@ nav {
 .to_top {
 	text-indent: -9999px;
 	display: inline-block;
+	background: none !important;
 	border-color: transparent !important;
 	position: relative;
+}
+
+.to_top:hover {
+	color: #fff;
+	top: -3px;
 }
 
 .to_top:before {
@@ -713,11 +733,12 @@ nav {
 	#header .title {
 		margin-left: 4em;
 		color: #555 !important;
-		padding-bottom: 1px;
 	}
 
 	#header .title:hover {
 		color: #ccc !important;
+		background: none;
+		border-color: #333;
 	}
 
 	#header .logo {
