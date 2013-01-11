@@ -157,7 +157,7 @@ blockquote em, pre {
 }
 
 /*** BLOG CONTENT ***/
-/**************/
+/********************/
 
 /* footnote link in text should be bold */
 a[rel="footnote"] {
@@ -277,6 +277,22 @@ header h2:before {
 #blog, #portfolio, #store {
 	margin: -2.44em 0 4em;
 	position: relative;
+}
+
+#dribbble {
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+#dribbble	#shots {
+	margin-left: -15px;
+	list-style-type: none;
+	padding: 0;
+}
+
+#shots li {
+	display: inline-block;
+	margin-bottom: 0.8em;
 }
 
 #blog .date {
@@ -859,6 +875,11 @@ nav {
 		height: 165px;
 	}
 
+	#dribbble {
+		width: 140%;
+		margin-left: -18%;
+	}
+
 	#about {
 		width: 130%;
 		margin-left: -15%;
@@ -979,6 +1000,10 @@ nav {
 
 	.cool_facts>p {
 		margin-bottom: -2em;
+	}
+
+	#dribbble {
+		margin: 0 0 5.4em -20%;
 	}
 
 	#testimonials {

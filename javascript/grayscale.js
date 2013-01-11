@@ -2,10 +2,10 @@
 $(window).load(function(){
 		
 	// Fade in images so there isn't a color "pop" document load and then on window load
-	$(".design a:first-child img").fadeIn(300);
+	$(".design a:first-child img, #shots li img").fadeIn(300);
 	
 	// clone image
-	$('.design a:first-child img').each(function(){
+	$('.design a:first-child img, #shots li img').each(function(){
 		var el = $(this);
 		el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: inline-block'>").clone().addClass('img_grayscale').css({"position":"absolute","z-index":"998","opacity":"0"}).insertBefore(el).queue(function(){
 				var el = $(this);
@@ -16,7 +16,7 @@ $(window).load(function(){
 	});
 	
 	// Fade image 
-	$('.design a:first-child img').mouseover(function(){
+	$('.design a:first-child img, #shots li img').mouseover(function(){
 		$(this).parent().find('img:first').stop().animate({opacity:1}, 300);
 	})
 	$('.img_grayscale').mouseout(function(){
