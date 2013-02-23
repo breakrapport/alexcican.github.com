@@ -296,6 +296,10 @@ header h2:before {
 	position: relative;
 }
 
+#work {
+	margin-bottom: 5em;
+}
+
 #dribbble {
 	text-align: center;
 	margin-bottom: 4em;
@@ -891,6 +895,10 @@ nav {
 	.design div span {
 		text-align: left;
 		display: inline-block;
+	}
+
+	#work {
+		margin-bottom: 6.7em;
 	}
 
 	.hire_me {
