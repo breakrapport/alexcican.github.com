@@ -350,10 +350,6 @@ header h2:before {
 	padding-left: 16px;
 }
 
-.twitter-mention-button {
-	vertical-align: -25%;
-}
-
 figcaption {
 	margin: -1em 0 -1em;
 	display: block;
@@ -649,10 +645,6 @@ figcaption {
 
 .gist .gist-meta a:last-child, .gist .gist-meta a:nth-last-child(2) {
 	display: none;
-}
-
-.twitter-share {
-	text-align: center;
 }
 
 /*** FOOTER ***/
