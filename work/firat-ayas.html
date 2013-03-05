@@ -77,56 +77,32 @@
 			<p>The only problem I see now is the large background image (1280px by 1846px) which adds a whooping 456KB, making the website &#8220;slower&#8221;.</p>
 		</div><!--end div_content-->
 
-		<div id="footer">
-			<a href="#" class="back_to_top" title="Back to Top">&circ;</a>
-				<div class="twitter">
-					<div class="tweet">
-						<ul id="twitter_update_list"></ul>
-						<a href="http://twitter.com/sican" class="follow_link" title="Follow me" target="_blank">Follow me &rarr;</a> (1582 followers)
-					</div><!--end div_tweet-->
-				</div><!--end div_twitter-->
-				<div class="search">
-					<form action="http://www.google.com/cse" id="cse-search-box">
-						<div>
-    					<input type="hidden" 	name="cx" value="012039834254062134674:weisevfxgr0" />
-    					<input type="hidden" 	name="ie" value="UTF-8" />
-    					<input type="text" 	name="q" size="25" class="search_input" 
-					onfocus="if(this.value == 'Search for something...') { this.value = ''}" 
-					onblur="if(this.value == '') { this.value = 'Search for something...'}" value="Search for something..." />
-  					</div>
-					</form>
-					<p class="extra"><a href="http://feeds.feedburner.com/sicanstudios/" class="rss" target="_blank" rel="nofollow">RSS Feed</a> &#47;&#47; <a href="contact.html" class="hire">Hire SicanStudios</a></p>
-					<p class="hosting_footer"><br/>Content and designs &copy; by Alex Cican</p>
-				</div><!--end div_search-->
-			</div><!--end div_footer-->
-	</div><!--end div_container-->
+			<footer>
+				<nav>
+					<a href="http://sicanstudios.com#work" title="Work">Work</a>
+					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
+					<a href="http://sicanstudios.com#about" title="About">About</a>
+					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
+					<a href="#" title="Back to top" class="to_top">Back to top</a>
+					<a href="http://twitter.com/sican" target="_blank" title="Twitter">Twitter</a>
+					<a href="http://dribbble.com/sican" target="_blank" title="Dribbble">Dribbble</a>
+					<a href="http://github.com/sican" target="_blank" title="GitHub">GitHub</a>
+					<a href="http://flickr.com/sican" target="_blank" title="Flickr">Flickr</a>
+				</nav>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script type="text/javascript">
-		/* iOS re-orientation fix */  
-		if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
-			var viewportmeta = document.querySelectorAll('meta[name="viewport"]')[0];
-			if (viewportmeta) {
-				viewportmeta.content = 'width=device-width, minimum-scale=0.7, maximum-scale=0.7';
+				<div class="copyright">
+					All content, code, and designs &copy; by Alex Cican, 2013. Don&#8217;t steal, create your own.
+				</div>
+			</footer>
+		</div>
+	</div>
 
-				document.body.addEventListener('gesturestart', function() {
-					viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
-				}, false);
-			}
 
-			/* iOS hides Safari address bar */ 
-			setTimeout(function() { 
-				window.scrollTo(0, 1) 
-			}, 1000);
-		}
-	</script>
-	<script type="text/javascript" src="../javascript/jquery.fittext.js"></script>
-	<script type="text/javascript">
-		$(".pre_content h1").fitText(0.8);
-	</script>
-	<script type="text/javascript"> src="../javascript/search.js"></script>
-	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/sican.json?callback=twitterCallback2&amp;count=1"></script>
+	<!-- Load jQuery script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+	<!-- Load script that pulls Dribbble shots -->
+	<script src="../javascript/combined.min.js"></script>
 
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
