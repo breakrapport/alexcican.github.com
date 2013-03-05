@@ -100,15 +100,18 @@ p {
 
 ul, ol {
 	margin-bottom: 1.2em;
+	margin: 0;
 }
 
 ul li {
-	padding-left: 1em;
+	padding-left: 0.9em;
+	margin-left: -1.3em;
 }
 
 /* slightly bigger padding because of numbers	*/
 ol li {
-	padding-left: 1em;
+	padding-left: 0.65em;
+	margin-left: -1em;
 }
 
 code {
@@ -135,6 +138,11 @@ blockquote em, pre {
 	border-left: solid 5px #4ea38d;
 	background: #f7f7f7;
 	padding-left: 2em;
+}
+
+blockquote p {
+	margin-left: -2em;
+	width: 110%;
 }
 
 /*** HEADER ***/
