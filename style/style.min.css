@@ -18,8 +18,8 @@ a[rel="footnote"]:hover,a[rev="footnote"]:hover{color:#333;border-bottom:solid 1
 .button,.more a,.read-more{border:none!important;background:#4ea38d;padding:.9em 2em;display:inline-block;color:#fff!important}.button:hover,.read-more:hover{background:#333}
 #dribbble{text-align:center}#dribbble #shots{margin-left:-20px;list-style-type:none;padding:0}#shots li{display:inline-block;margin-bottom:1em;padding:0}
 .dribbble_shot img{max-width:280px;max-height:280px}#blog .date{text-transform:uppercase;color:#555;font-size:.785em;padding:0}#blog img{width:100%}.archive-post p,#recent-articles p{margin:0}
-.archive-post p a,#recent-articles p a{display:block;border:none!important;padding:.9em 0;position:relative}.archive-post p a span,#recent-articles p a span{color:#555;font-size:.875em}
-.archive-post p a:hover,#recent-articles p a:hover{background:#4ea38d;color:#111!important;padding-left:16px}figcaption{margin:-1em 0 1em;display:block;font-style:italic;color:#555}
+.archive-post p a,#recent-articles p a{display:block;border:none!important;padding:.9em 0;position:relative}.archive-post p a span,#recent-articles p a span{color:#999;font-size:.875em}
+.archive-post p a:hover,#recent-articles p a:hover{background:#4ea38d;color:#fff!important;padding-left:16px}figcaption{margin:-1em 0 1em;display:block;font-style:italic;color:#555}
 .design:last-child{margin-bottom:-1em}.design>a:first-child{text-align:center;width:100%;display:inline-block;border:0;background:0;margin-top:.55em}.design h3{margin:1.7em 0 0;text-align:center}
 .design div{margin-top:-1.4em}.design div span{text-align:center;display:block}.design span{text-transform:uppercase;color:#999;font-size:.785em;display:inline-block;padding-bottom:1.05em}
 .bio>img:first-child{width:100%;max-width:360px;display:block;margin:0 auto}#location h4,.cool_facts h4{text-transform:uppercase;color:#999;font-size:.785em;font-weight:normal}

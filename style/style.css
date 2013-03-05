@@ -346,13 +346,13 @@ header h2:before {
 }
 
 .archive-post p a span, #recent-articles p a span {
-	color: #555;
+	color: #999;
 	font-size: 0.875em;
 }
 
 .archive-post p a:hover, #recent-articles p a:hover {
 	background: #4ea38d;
-	color: #111 !important;
+	color: #fff !important;
 	padding-left: 16px;
 }
 
