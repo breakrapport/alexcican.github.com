@@ -611,6 +611,11 @@ figcaption {
 	display: none;
 }
 
+.error {
+	text-align: center;
+}
+
+
 /*** FOOTER ***/
 /**************/
 
