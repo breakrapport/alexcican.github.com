@@ -335,7 +335,7 @@ header h2:before {
 
 /* removes padding from paragraph and adds it to link (below) */
 .archive-post p, #recent-articles p {
-	padding: 0;
+	margin: 0;
 }
 
 .archive-post p a, #recent-articles p a {
