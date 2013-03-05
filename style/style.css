@@ -105,13 +105,11 @@ ul, ol {
 }
 
 ul li {
-	margin-left: 1.3em;
 	padding-left: 1em;
 }
 
 /* slightly bigger padding because of numbers	*/
 ol li {
-	margin-left: 1.3em;
 	padding-left: 1em;
 }
 
