@@ -41,7 +41,6 @@ img, a, a:visited {
 a, a:visited {
 	color: #4ea38d;
 	text-decoration: none;
-	border-bottom: solid 1px #7f9a93;
 }
 
 a:visited {
@@ -77,7 +76,6 @@ a:hover {
 	color: #fff;
 	display: block-inline;
 	cursor: pointer;
-	border-color: #4ea38d;
 	background: #4ea38d;
 }
 
@@ -215,7 +213,6 @@ blockquote em, pre {
 /* footnote link in text should be bold */
 a[rel="footnote"] {
 	font-weight: bold;
-	border-bottom: none;
 	padding: 3px;
 }
 
@@ -244,7 +241,6 @@ a[rel="footnote"] {
 /* back to text link */
 a[rev="footnote"] {
 	font-weight: bold;
-	border-bottom: none;
 	color: #7f9a93 !important;
 }
 
@@ -258,7 +254,6 @@ a[rev="footnote"]:after {
 /* hover effects for footnotes */
 a[rel="footnote"]:hover, a[rev="footnote"]:hover {
 	color: #ddd !important;
-	border-bottom: solid 1px #7f9a93;
 }
 
 /*** CONTENT ***/
@@ -715,7 +710,6 @@ nav {
 	.design>a:first-child {
 		display: inline-block;
 		width: 39%;
-		border-bottom: none !important;
 		position: relative;
 		margin-right: 5%;
 		vertical-align: top;
