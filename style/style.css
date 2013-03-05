@@ -257,7 +257,7 @@ a[rev="footnote"]:after {
 
 /* hover effects for footnotes */
 a[rel="footnote"]:hover, a[rev="footnote"]:hover {
-	color: #333;
+	color: #333 !important;
 	border-bottom: solid 1px #7f9a93;
 }
 

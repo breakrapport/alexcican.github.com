@@ -13,8 +13,8 @@ pre{margin-bottom:1.7em}pre>code{font-weight:normal}blockquote em,pre{display:bl
 .links a.logo{width:11%;margin:0 1%;padding:.5em 0 0;max-width:50px}a[rel="footnote"]{font-weight:bold;border-bottom:0;padding:3px}
 .footnotes{margin:2.5em 0 .5em}.footnotes:before{content:"FOOTNOTES:";display:block;padding-bottom:-0.6em}.footnotes hr{display:none}
 .footnotes li:target,sup:target{background:#ddd}a[rev="footnote"]{font-weight:bold;border-bottom:0;color:#7f9a93!important}a[rev="footnote"]:after{content:"Back to Text";text-transform:uppercase;font-size:.875em}
-a[rel="footnote"]:hover,a[rev="footnote"]:hover{color:#333;border-bottom:solid 1px #7f9a93}#content{margin-top:8em}
-#content>div{margin-bottom:5em}#click_for_bigger{display:none}header h2{text-align:center;padding:0;margin-bottom:6.5%}header h2:before{content:"// ";color:#4ea38d}
+a[rel="footnote"]:hover,a[rev="footnote"]:hover{color:#333!important;border-bottom:solid 1px #7f9a93}
+#content{margin-top:8em}#content>div{margin-bottom:5em}#click_for_bigger{display:none}header h2{text-align:center;padding:0;margin-bottom:6.5%}header h2:before{content:"// ";color:#4ea38d}
 .button,.more a,.read-more{border:none!important;background:#4ea38d;padding:.9em 2em;display:inline-block;color:#fff!important}.button:hover,.read-more:hover{background:#333}
 #dribbble{text-align:center}#dribbble #shots{margin-left:-20px;list-style-type:none;padding:0}#shots li{display:inline-block;margin-bottom:1em;padding:0}
 .dribbble_shot img{max-width:280px;max-height:280px}#blog .date{text-transform:uppercase;color:#555;font-size:.785em;padding:0}#blog img{width:100%}.archive-post p,#recent-articles p{margin:0}
