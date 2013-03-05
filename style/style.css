@@ -257,8 +257,12 @@ a[rev="footnote"]:after {
 
 /* hover effects for footnotes */
 a[rel="footnote"]:hover, a[rev="footnote"]:hover {
-	color: #333 !important;
+	color: #ddd !important;
 	border-bottom: solid 1px #7f9a93;
+}
+
+.recent-articles a:hover>span {
+	color: #ddd !important;
 }
 
 /*** CONTENT ***/
