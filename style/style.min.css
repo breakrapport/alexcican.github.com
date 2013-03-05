@@ -50,5 +50,5 @@ footer{padding-bottom:5%;font-size:.785em;line-height:1.8em;text-align:center}na
 .next_previous a:first-child:before{left:auto;right:-20px;top:17px;-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-o-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg)}
 nav{margin-top:-4em}}@media screen and (min-width:1024px){img{max-width:800px}#blog img,#portfolio p>img,#portfolio .img,#experiments p>.img{margin-left:-7.2%;width:auto}
 .details img{width:19%;margin-top:1%;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;display:inline;margin-left:0!important;width:17%!important}
-#about{width:114%;margin-left:-7%}.bio>img:first-child{max-width:346px}#testimonials{width:130%;margin-left:-15%}.testimonial{width:30.5%;margin-right:2%;margin-top:-0.5em}
+#about{width:114%;margin-left:-7%}.bio>img:first-child{max-width:346px}#testimonials{width:130%;margin-left:-15%}.testimonial{width:30.55%;margin-right:2%;margin-top:-0.5em}
 .testimonial:nth-child(3n+4){margin-right:0}}

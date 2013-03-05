@@ -849,7 +849,7 @@ nav {
 	.next_previous a:first-child:before {
 		left: auto;
 		right: -20px;
-		top: 17px;
+		top: 17px; 
 		-webkit-transform: rotate(-180deg); 
 		-moz-transform: rotate(-180deg);
 		-o-transform: rotate(-180deg);
@@ -904,7 +904,7 @@ nav {
 	}
 
 	.testimonial {
-		width: 30.5%;
+		width: 30.55%;
 		margin-right: 2%;
 		margin-top: -0.5em; /* moves testimonials up a bit because of images (not equally vertically spaced) */
 	}
