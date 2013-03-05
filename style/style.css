@@ -611,7 +611,7 @@ figcaption {
 	display: none;
 }
 
-.error {
+#error {
 	text-align: center;
 }
 
@@ -842,7 +842,7 @@ nav {
 		font-size: 6em;
 		width: 40px;
 		position: absolute;
-		top: 12px;
+		top: 17px;
 		left: -20px;
 	}
 
