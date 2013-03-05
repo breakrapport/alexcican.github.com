@@ -261,10 +261,6 @@ a[rel="footnote"]:hover, a[rev="footnote"]:hover {
 	border-bottom: solid 1px #7f9a93;
 }
 
-.recent-articles a:hover>span {
-	color: #ddd !important;
-}
-
 /*** CONTENT ***/
 /**************/
 
@@ -329,6 +325,10 @@ header h2:before {
 	color: #555;
 	font-size: 0.785em;
 	padding: 0;
+}
+
+a:hover>.date {
+	color: #ddd !important;
 }
 
 #blog img {
@@ -844,14 +844,14 @@ nav {
 		font-size: 6em;
 		width: 40px;
 		position: absolute;
-		top: 10px;
+		top: 8px;
 		left: -20px;
 	}
 
 	.next_previous a:first-child:before {
 		left: auto;
 		right: -20px;
-		top: 17px; 
+		top: 18px; 
 		-webkit-transform: rotate(-180deg); 
 		-moz-transform: rotate(-180deg);
 		-o-transform: rotate(-180deg);
