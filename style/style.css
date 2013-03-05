@@ -307,7 +307,6 @@ header h2:before {
 }
 
 #dribbble	#shots {
-	margin-left: -20px;
 	list-style-type: none;
 	padding: 0;
 }
@@ -315,7 +314,6 @@ header h2:before {
 #shots li {
 	display: inline-block;
 	margin-bottom: 1em;
-	padding: 0;
 }
 
 .dribbble_shot img {
@@ -764,7 +762,15 @@ nav {
 
 	#dribbble {
 		width: 115%;
-		margin-left: -7.5%;
+		margin-left: -5.5%;
+	}
+
+	#dribbble	#shots {
+		margin-left: -8px;
+	}
+
+	#shots li {
+		padding: 0 1.5em;
 	}
 
 	.dribbble_shot img {
@@ -822,7 +828,7 @@ nav {
 	}
 
 	.details .button {
-		margin-top: -1.6em;
+		margin-top: -0.7em;
 	}
 
 	.no-image:before {
