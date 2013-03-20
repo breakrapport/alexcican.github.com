@@ -3,8 +3,18 @@
  <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <script type="text/javascript">
-    var NEW_HOST = 'sicanstudios.com';
-    location.replace(location.protocol + '://' + NEW_HOST + location.pathname + location.search + location.hash);
+    // var NEW_HOST = 'sicanstudios.com';
+    // location.replace(new RegExp(/\/(.*)/),"");
+    // var domain = "http://subdomain.rootdomain.com"
+    // var loc = domain.indexOf(".");
+    // var NEW_HOST = domain.substring(loc + 1);
+    // location.replace(rootDomain);
+    var url = window.location.pathname;
+    url = url.replace('/test.html','');
+    // console.log(url);
+    location.replace(location.protocol + '://' + window.location.host + "/" + url);
+
+    // location.replace(location.protocol + '://' + NEW_HOST + location.pathname + location.search + location.hash);
   </script>
  </head>
  <body>
