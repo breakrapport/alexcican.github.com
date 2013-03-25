@@ -47,7 +47,7 @@ You can add some extra attributes to this front-block if you want:
 
 Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your [admin page](http://scriptogr.am/admin/) and click the button *Synchronize* to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the `posts` folder.
 
-![scriptogram synchronize button](https://dl.dropbox.com/u/48552248/websites/sicanstudios/blog/assets/scriptogram-publish-button.jpg)
+![scriptogram synchronize button](http://sicanstudios.com/images/blog/assets/scriptogram-publish-button.jpg)
 
 ##Adding a custom domain name
 To add a custom domain name for your Scriptogr.am blog, simply go to your [admin panel](http://scriptogr.am/admin/), find the *“custom domain”* field and insert your desired custom domain name without the `http://`. For me it’s:
@@ -58,7 +58,7 @@ Make sure you click the *“Update Settings”* button below the input field to 
 
 If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the *“DNS Manager”* section. Click on *“Launch”*. 
 
-![godaddy dns editor](https://dl.dropbox.com/u/48552248/websites/sicanstudios/blog/assets/godaddy-dns-editor.jpg)
+![godaddy dns editor](http://sicanstudios.com/images/blog/assets/godaddy-dns-editor.jpg)
 
 Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like `http://www.sicanstudios.com` or `http://blog.sicanstudios.com` you would simply create a `CNAME` record pointing to `scriptogr.am`. If you are using a top-level domain like `http://sicanstudios.com`, you must use an `A (Host)` record pointing to `50.116.1.192`. There’s no need to add a `CNAME` record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).
 

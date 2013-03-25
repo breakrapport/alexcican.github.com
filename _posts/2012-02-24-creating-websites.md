@@ -22,8 +22,7 @@ More companies and individuals nowadays want to publish their content themselves
 
 There’s a strong possibility that by the time you’ve learned and mastered all those skills, the trends would have already changed. So, now you are left behind, watching helplessly how others who ride the “trend wave” get all the clients.
 
-![old website](http://dl.dropbox.com/u/48552248/websites/sicanstudios/blog/assets/website_1999.gif)
-<figcaption>How websites looked in 1999 (Photo from [PixelPunk](http://www.pixelpunk.com/i/web-med-democrat.gif "PixelPunk"))</figcaption>
+![old website](http://sicanstudios.com/images/blog/assets/website_1999.gif)
 
 There is a hidden pitfall, which goes by: “I don’t follow trends”. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients…
 

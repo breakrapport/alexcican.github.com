@@ -12,7 +12,7 @@ Hiding and showing a div in HTML is really simple. In this tutorial I will show 
 
 The first method, involves using only CSS. We will use the CSS pseudo-class `:hover`. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.
 
-<a href="http://dl.dropbox.com/u/48552248/websites/demos/hide_show_div/demo_1.html" class="button" target="_blank">View the Demo &rarr;</a>
+<a href="http://lab.sicanstudios.com/hide_show_div/" class="button" target="_blank">View the Demo &rarr;</a>
 
 ##HTML Code
 
@@ -48,7 +48,7 @@ That’s all you need to make this work. Now, it’s up to you; style it and mak
 
 In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.
 
-<a href="http://dl.dropbox.com/u/48552248/websites/demos/hide_show_div/demo_2.html" class="button" target="_blank">View the Demo &rarr;</a>
+<a href="http://lab.sicanstudios.com/hide_show_div/demo2.html" class="button" target="_blank">View the Demo &rarr;</a>
 
 ##HTML Code
 
