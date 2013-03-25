@@ -1,7 +1,7 @@
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 <!doctype html>
-<html manifest="cache.appcache">
+<html manifest="http://sicanstudios.com/cache.appcache">
 <!--[if IE 9 ]><html class="ie9"><![endif]-->
 <head>
   <title>{{ page.title }} - {{ site.name }}</title>
