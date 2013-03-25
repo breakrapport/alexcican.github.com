@@ -1,0 +1,142 @@
+
+
+<!doctype html>
+<!-- <html manifest="cache.appcache"> -->
+<!-- <html manifest="cache.appcache"> -->
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+<head>
+  <title>Making your website look pretty on retina devices - Sicanstudios</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="content-language" content="en-gb" />
+  <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+  <meta name="copyright" content="Copyright by Alex Cican" />
+  <meta name="description" content="Design &amp; Development - Sicanstudios" />
+  <meta name="keywords" content="web design, design, website, development, sicanstudios, cyprus"/>
+  <meta name="author" content="https://plus.google.com/116801469202683881648/" />
+  <meta name="viewport" content="width=device-width" />
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../../style/style.min.css" />
+  <link rel="alternate" type="application/rss+xml" title="Design &amp; Development - Sicanstudios" href="http://feeds.feedburner.com/sicanstudios/" />
+  <link rel="canonical" href="http://sicanstudios.com/post/retina-website-tutorial/" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/touch-icon-57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../images/touch-icon-72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../images/touch-icon-114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../images/touch-icon-144.png" />
+  <meta property="og:image" content="../../images/touch-icon-144.png" />
+  <meta property="og:title" content="Making your website look pretty on retina devices" />
+  <meta property="og:description" content="Making your website look pretty on retina devices" />
+  <meta property="og:url" content="http://sicanstudios.com/post/retina-website-tutorial/" />
+  <meta property="og:site_name" content="Design &amp; Development - Sicanstudios" />
+  <meta property="og:type" content="blog" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@sican" />
+  <meta name="twitter:creator" content="@sican" />
+  <meta name="twitter:creator:id" content="Alex Cican" />
+</head>
+<body>
+  <!--[if lt IE 9]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <header>
+    <nav class="main_navigation">
+      <a href="http://sicanstudios.com" data-icon="l" class="work icon "><span>Work</span></a>
+      <a href="http://sicanstudios.com#about" data-icon="p" class="about icon"><span>About</span></a>
+      <a href="http://sicanstudios.com/blog/" data-icon="b" class="blog icon   current "><span>Blog</span></a>
+      <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" data-icon="e" class="contact icon"><span>Email</span></a>
+    </nav>
+  </header>
+
+  <div id="content">
+
+
+
+
+  <div class="text">
+    <h1>Making your website look pretty on retina devices</h1>
+    <h3>07 February 2013</h3>
+
+    <p><img class="pink" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlJlY3RhbmdsZV8zXzFfIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiDQoJIHk9IjBweCIgd2lkdGg9IjczNnB4IiBoZWlnaHQ9IjQxNnB4IiB2aWV3Qm94PSIwIDAgNzM2IDQxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzM2IDQxNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8ZyBpZD0iUmVjdGFuZ2xlXzMiPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzU0Ljk2MSwyMjcuMDIxaDIxLjA3M2MwLjc0MiwwLDEuNDIyLTAuMzExLDIuMDQxLTAuOTI4YzAuNjE3LTAuNjE5LDAuOTI4LTEuMjk5LDAuOTI4LTIuMDQxdi00Ni4xMDINCgkJCWMwLTAuNzQyLTAuMzExLTEuNDIyLTAuOTI4LTIuMDQxYy0wLjYxOS0wLjYxNy0xLjI5OS0wLjkyOC0yLjA0MS0wLjkyOGgtMjEuMDczYy0wLjc0MiwwLTEuNDI0LDAuMzExLTIuMDQxLDAuOTI4DQoJCQljLTAuNjE5LDAuNjE5LTAuOTI4LDEuMjk5LTAuOTI4LDIuMDQxdjQ2LjEwMmMwLDAuNzQyLDAuMzA5LDEuNDIyLDAuOTI4LDIuMDQxQzM1My41MzcsMjI2LjcxMSwzNTQuMjE5LDIyNy4wMjEsMzU0Ljk2MSwyMjcuMDIxeg0KCQkJIE0zNjguOTkyLDIyNC4wMjFoLTV2LTRoNVYyMjQuMDIxeiBNMzYxLjk3LDE3OS4wMzVoOC4wNDN2MS4wMjhoLTguMDQzVjE3OS4wMzV6IE0zNTUuMDQ0LDE4Mi4wMDJoMjAuOTQ4djM2LjAwOWgtMjAuOTQ4VjE4Mi4wMDINCgkJCXogTTM5MC4xNDksMTUzLjk0MWMtMS4yMzctMS4yMzUtMi41OTgtMS44NTUtNC4wODItMS44NTVoLTQxLjE0NmMtMS40ODQsMC0yLjg0NywwLjYyLTQuMDgyLDEuODU1DQoJCQljLTEuMjM4LDEuMjM3LTEuODU1LDIuNTk4LTEuODU1LDQuMDgydjkwLjAzNWMwLDEuNDg0LDAuNjE3LDIuODQ1LDEuODU1LDQuMDgyYzEuMjM1LDEuMjM1LDIuNTk4LDEuODU1LDQuMDgyLDEuODU1aDQxLjE0Ng0KCQkJYzEuNDg0LDAsMi44NDUtMC42Miw0LjA4Mi0xLjg1NWMxLjIzNS0xLjIzNywxLjg1NS0yLjU5OCwxLjg1NS00LjA4MnYtOTAuMDM1QzM5Mi4wMDUsMTU2LjUzOSwzOTEuMzg1LDE1NS4xNzksMzkwLjE0OSwxNTMuOTQxeg0KCQkJIE0zNTcuOTM5LDE1OS4wMjNoMTYuMDg3djIuMDU3aC0xNi4wODdWMTU5LjAyM3ogTTM3MC45ODQsMjQ3Ljk5NmgtOXYtN2g5VjI0Ny45OTZ6IE0zODYuOTg0LDIzNi45NzZoLTQzLjA2MnYtNzEuMDE4aDQzLjA2Mg0KCQkJVjIzNi45NzZ6Ii8+DQoJPC9nPg0KPC9nPg0KPC9zdmc+DQo=" alt="clock svg" /></p>
+
+<p>I thought I’d mix it up a bit and instead of writing a tutorial, I decided to make a video screencast. In this video tutorial I’ll show you some modern practices on how to make your website look great on retina devices, such as an iPhone 5 or a retina MacBook Pro.</p>
+
+<!--more-->
+
+
+<h2>What you’ll learn</h2>
+
+<p>From this tutorial you’ll learn how to make your logos and icons infinitely scalable by exporting them as SVG (Scalable Vector Graphics) format. Next, we’ll link the SVG image to the HTML file and talk performance, and how to encode the image into data URL to save an HTTP request. Lastly, you will learn how to export @2x images and how to embed them in CSS with media queries. Finally, we’ll learn about some cool JavaScript plugins that help you with that. Check out the video:</p>
+
+<iframe src="http://player.vimeo.com/video/59101559?byline=0" width="740" height="416" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p> <p><a href="http://vimeo.com/59101559">Making your website look pretty on retina devices</a> from <a href="http://vimeo.com/sican">Alex Cican</a> on Vimeo.</p></p>
+
+<h2>Clarifications from the video (Spoiler Alert)</h2>
+
+<ol>
+<li>You can also copy the vector shape directly from Photoshop, paste it into Illustrator, and then export is as SVG. No need to save as PSD if you don’t want to.</li>
+<li>The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (<code>img</code> tag). For CSS images (<code>background-image</code>), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.</li>
+<li>In the video I say that I want to target other devices with the CSS3 media query, yet use only a <code>-webkit</code> a vendor prefix. That's because I didn’t finish the entire script. Grab it here: <a href="http://gist.github.com/sican/4726254">gist.github.com/sican/4726254</a>.</li>
+</ol>
+
+
+<h2>Links from the video</h2>
+
+<p><a href="http://dataurl.net/#dataurlmaker">DataURL creator</a><br/>
+<a href="http://macrabbit.com/slicy/">Slicy app</a><br/>
+<a href="http://github.com/imulus/retinajs">RetinaJS</a><br/>
+<a href="http://github.com/scottjehl/picturefill">Picturefill</a><br/>
+<a href="http://blog.netvlies.nl/design-interactie/retina-revolution/">Retina images</a></p>
+
+
+    <a href="http://twitter.com/share?Making your website look pretty on retina devices:&url=http://sicanstudios.com/post/retina-website-tutorial/" data-icon="t" class="icon twitter_button" title="Share on Twitter" target="_blank"><b></b></a>
+
+    <div class="previous_next">
+      
+        
+          <a href="/post/recent-posts-scriptogram/" class="previous_post" title="Previous post: Displaying recent posts on Scriptogr.am">Previous post: Displaying recent posts on Scriptogr.am</a>
+        
+      
+       
+        
+          <a href="/post/redesigning-sicanstudios/" class="next_post" title="Next post: Re-designing Sicanstudios">Next post: Re-designing Sicanstudios</a>
+        
+      
+    </div>
+  </div>
+
+
+
+
+
+    <footer>
+      <div id="footer_links">
+        <a href="http://twitter.com/sican" data-icon="t" class="icon twitter" target="_blank"><span>Twitter</span></a>
+        <a href="http://dribbble.com/sican" data-icon="d" class="icon dribbble" target="_blank"><span>Dribbble</span></a>
+        <a href="http://github.com/sican" data-icon="g" class="icon github" target="_blank"><span>GitHub</span></a>
+        <a href="http://vimeo.com/sican" data-icon="v" class="icon vimeo" target="_blank"><span>Vimeo</span></a>
+        <a href="skype:alex.cican?chat" data-icon="s" class="icon skype"><span>Skype</span></a>
+        <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" data-icon="e" class="icon email"><span>Email</span></a>
+      </div>
+
+      <p class="copyright"><span class="available">Available for work</span> &#10070; <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" title="Get in Touch">&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;</a></p>
+    </footer>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="../../javascript/combined.min.js"></script>
+
+  <!--script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6273751-7']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script-->
+</body>
+</html>

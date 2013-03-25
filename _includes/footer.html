@@ -1,0 +1,33 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+    <footer>
+      <div id="footer_links">
+        <a href="http://twitter.com/sican" data-icon="t" class="icon twitter" target="_blank"><span>Twitter</span></a>
+        <a href="http://dribbble.com/sican" data-icon="d" class="icon dribbble" target="_blank"><span>Dribbble</span></a>
+        <a href="http://github.com/sican" data-icon="g" class="icon github" target="_blank"><span>GitHub</span></a>
+        <a href="http://vimeo.com/sican" data-icon="v" class="icon vimeo" target="_blank"><span>Vimeo</span></a>
+        <a href="skype:alex.cican?chat" data-icon="s" class="icon skype"><span>Skype</span></a>
+        <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" data-icon="e" class="icon email"><span>Email</span></a>
+      </div>
+
+      <p class="copyright"><span class="available">Available for work</span> &#10070; <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" title="Get in Touch">&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;</a></p>
+    </footer>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="{{ relative }}javascript/combined.min.js"></script>
+
+  <!--script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6273751-7']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script-->
+</body>
+</html>

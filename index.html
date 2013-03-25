@@ -1,251 +1,36 @@
-<!doctype html>
-<html manifest="cache.appcache">
+---
+title: Design &amp; Development
+layout: default
+---
+  <div id="work">
 
-<head>
-	<title>Design &amp; Development - Sicanstudios</title>		
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="./images/favicon.ico" />
-	<meta name="copyright" content="Copyright by Sicanstudios.com" />
-	<meta name="description" content="Design &amp; Development - Sicanstudios" />
-	<meta name="keywords" content="web design, design, website, development, sicanstudios, cyprus"/>
-	<meta name="Author" content="Sicanstudios.com" />
-	<meta name="viewport" content="width=device-width"/>
-	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="./style/style.min.css" />
-	<link rel="alternate" type="application/rss+xml" title="Website design and development from Cyprus" href="http://feeds.feedburner.com/sicanstudios/" />
-	<link rel="apple-touch-icon-precomposed" href="./images/touch-icon-57.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./images/touch-icon-72.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./images/touch-icon-114.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./images/touch-icon-144.png" />
-</head>
-<body>
-	<div id="container">
-		<div id="header">
-			<div class="links">
-				<a href="http://sicanstudios.com#work" title="Work">Work</a>
-				<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
-				<a href="http://sicanstudios.com" title="Back to Homepage" class="logo"><img src="data:image/svg+xml;base64,CQkJCTxzdmcgdmVyc2lvbj0iMS4xIiBpZD0ibG9nbyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAzMCA0OCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzAgNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCQkJCTxnPgoJCQkJCQk8cGF0aCBmaWxsPSIjNGVhMzhkIiBkPSJNMy40MjgsMTcuMTQ2bC0wLjA0Ny0wLjA5bDAuMDAzLDAuMTc4TDMuNDI4LDE3LjE0NnogTTYuMDI5LDIxLjk2TDYuNTgzLDIzaDE3LjAyNGwyLjQ4Ni00Ljk4NkgxMi45NCBsMC0wLjAwNmgtMS42MUwxMS4zMzMsMThIOC4wMDNsNS40MDgtMTAuODQ3bC0yLjU0Ni00Ljg3N2wtNy40MzcsMTQuODdsMi41NTgsNC44OTlMNi4wMjksMjEuOTZ6IE0xMC44NiwyLjI2OGwwLjAwNSwwLjAwOSBsMC4wMDUtMC4wMDlIMTAuODZ6IE0yLjMwOSwyOS40MmwwLjM4MiwwLjA1NGwtMC4yMDMtMC40MTJMMi4zMDksMjkuNDJ6IE0xNC42NzIsNUgxN2wzLjQ4OC0wLjAyN0wxOC4wMDIsMGgtNS45OThsLTAuMDM1LDAuMDcgbDAsMC4wODdsMi43MDQsNS4yMThWNXogTTExLjI0MywxNmgzLjE3NWwxLjYtMC4wM2w0LjQ4LTguOTYyaC00Ljc3MUwxMS4yNDMsMTZ6IE0yLjMyLDE5LjM2MWwtMi4zMjIsNC42NDNsMi40ODksNS4wNTggbDIuMzkyLTQuNzk3TDIuMzIsMTkuMzYxeiBNMjcuNTI3LDE5LjA0OWwwLjE0NiwwLjI5NGwwLjE0Ni0wLjI5NEgyNy41Mjd6IE0yNy42NzQsMTkuMzQzTDE2Ljc4Miw0MS4xODlsMi4zNjgsNC41MzUgTDMwLjAxLDI0LjAwNEwyNy42NzQsMTkuMzQzeiBNMTkuMDI5LDQ1Ljk2N2gwLjI0N2wtMC4xMjYtMC4yNDJMMTkuMDI5LDQ1Ljk2N3ogTTE0LjYzMyw0MWw3Ljk3NC0xNS45OTJINi43NTJsLTIuNDk2LDUuMDA1IGw1LjUwNSwwLjAybDUuMjkyLTAuMDE0TDkuNDk5LDQxSDE0LjYzM3ogTTkuNTE0LDQzLjAwOEwxMi4wMjksNDhsNS45NTYsMC4wMjh2LTAuMTk5bC0yLjUxOC00LjgyMUg5LjUxNHogTTIuMjA1LDE5LjE0MiBsMC4xMTUsMC4yMmwwLjExNS0wLjIyOUwyLjIwNSwxOS4xNDJ6Ii8+CgkJCQkJPC9nPgoJCQkJPC9zdmc+" alt="sicanstudios logo" /></a>
-				<a href="http://sicanstudios.com#about" title="About">About</a>
-				<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
-			</div>
-		</div><!--end div_header-->
+    {% for post in site.posts limit: 100 %}
+    
+      {% if post.designs %}
+        <div class="design">
+          <div class="design_images">
+            {{ post.designs }}
+          </div>
 
-		<div id="content">
-			<div id="work">
-				<header><h2>Select client work</h2></header>
-				<div class="design">
-					<a href="./work/cartalyst.html" title="Cartalyst"><img src="./images/work/cartalyst/thumb.jpg" alt="cartalyst thumb" /></a>
-					<div>
-						<h3>Cartalyst</h3>
-						<span>UX/UI Design, Front-End Development - 2012</span>
-						<p class="text">Responsible for redesigning the company&#8217;s brand, and creating a unique, compelling, and responsive website. Improved usability, accessibility, and support for older browsers. Developed the responsive website in HTML5 &amp; CSS3 and transcoded into a theme for FuelPHP framework.</p>
-						<p><a href="./work/cartalyst.html" title="Read case study">Read case study</a> // <a href="http://cartalyst.com" target="_blank" title="Visit website">Visit website</a></p>
-					</div>
-				</div>
+          {% if post.link %}
+          <section class="link">
+            <a href="{{ post.link }}" data-icon='w' class="icon visit_site_icon" target="_blank"><span>Visit website</span></a>
+          </section>
+          {% else %}
+            <section class="case_study">
+              <a href="{{ post.url }}" data-icon='+' class="icon case_study_icon load_external_content"><span class='visible'>Open case study</span><span class='hidden'>Close case study</span></a>
+            </section>
+          {% endif %}
+        </div>
+      {% endif %}
 
-				<div class="design">
-					<a href="./work/brianjcosborne.html" title="Brian JC Osborne"><img src="./images/work/brianjcosborne/thumb.jpg" alt="brian jc osborne thumb" /></a>
-					<div>
-						<h3>Brian JC Osborne</h3>
-						<span>UI Design, Front/Back-End Development - 2012</span>
-						<p class="text">Responsible for designing and developing a website for a photographer. Developed a custom CMS with PHP to handle the image gallery, resize images, generate thumbnails. Using JS, I implemented swipe function for gallery browsing on mobile, and added keyboard navigation.</p>
-						<p><a href="./work/brianjcosborne.html" title="Read case study">Read case study</a> // <a href="http://brianjcosborne.com" target="_blank" title="Visit website">Visit website</a></p>
-					</div>
-				</div>
+    {% endfor %}
+  </div>
 
-				<div class="design">
-					<a href="./work/timewasted.html" title="TimeWasted"><img src="./images/work/timewasted/thumb.jpg" alt="timewasted thumb" /></a>
-					<div>
-						<h3>TimeWasted</h3>
-						<span>UX/UI Design, Front/Back-End Development - 2011</span>
-						<p class="text">Responsible for designing and developing a mobile-first web app with HTML5, CSS3, and PHP. Created MySQL database records with TV shows, added JS functionality, optimised web app for iPhone and iPad. Ensured the UI was easy to use and that the user experience was engaging.</p>
-						<p><a href="./work/timewasted.html" title="Read case study">Read case study</a> // <a href="http://timewasted.co.uk" target="_blank" title="Visit application">Visit application</a></p>
-					</div>
-				</div>
-
-				<div class="design">
-					<a href="./work/alt-foundry.html" title="Alt Foundry"><img src="./images/work/alt-foundry/thumb.jpg" alt="alt foundry thumb" /></a>
-					<div>
-						<h3>Alt Foundry</h3>
-						<span>UX/UI Design, Front/Back-End Development - 2011</span>
-						<p class="text">Responsible for designing and developing an e-commerce solution for selling fonts. Coded the website, wrote a PHP script that generated images from live text, and developed JS code for testing the fonts dynamically. Transcoded into PHP and MySQL for WordPress (back-end).</p>
-						<p><a href="./work/alt-foundry.html" title="Read case study">Read case study</a> // <a href="http://alt-foundry.com" target="_blank" title="Visit website">Visit website</a></p>
-					</div>
-				</div>
-			</div>
-
-			<div id="experiments">
-				<header><h2>Projects &amp; experiments</h2></header>
-				<h2>Light switch</h2>
-				<p>This experiment features a realistic light switch and simulates the effect of turning off/on the light. With the help of jQuery, the brightness of the page (light) is also reduced upon clicking the switch. I wanted to push myself and create a realistic light switch, so the light, gradients, and shadows had to be spot on in order to sell the effect.</p>
-
-				<div class="details">
-					<p><span>LINES OF CODE</span> <span>406</span></p>
-					<p><span>Tools used</span> <span>SublimeText 2, HTML 5, CSS 3, jQuery</span></p>
-					<a href="http://dl.dropbox.com/u/48552248/websites/demos/switch/index.html" title="Visit Website" target="_blank" class="button">Visit Website</a>
-				</div>
-
-				<p><a href="http://dl.dropbox.com/u/48552248/websites/demos/switch/index.html" target="_blank" class="img"><img src="./images/work/experiments/switch.jpg" alt="css3 light switch" title="Light switch" /></a></p>
-				<figcaption>Lit and rendered in CSS 3. No images are used for the switch; even the screws are coded.</figcaption>
-
-				<h2>Card Flip</h2>
-				<p>This was a coding experiment I did for the company <a href="http://scan.me" title="Scan" rel="nofollow">Scan</a>. They wanted a simple one page profile that would display information about the user in a card. The card then flips to display additional information and links to social networks.</p>
-
-				<div class="details">
-					<p><span>LINES OF CODE</span> <span>430</span></p>
-					<p><span>Tools used</span> <span>SublimeText 2, HTML 5, CSS 3, jQuery</span></p>
-					<a href="http://dl.dropbox.com/u/48552248/websites/demos/card_flip/index.html" title="Visit Website" target="_blank" class="button">Visit Website</a>
-				</div>
-
-				<p><a href="http://dl.dropbox.com/u/48552248/websites/demos/card_flip/index.html" target="_blank" class="img"><img src="./images/work/experiments/card-flip.jpg" alt="css3 card flip" title="Card Flip" /></a></p>
-				<figcaption>Profile of person shown as a card; on the back it displays additional info.</figcaption>
-
-				<h2>Dribbble website</h2>
-				<p>This is a one page website that shows you how to make a popular shot on Dribbble. It&#8217;s more of a tongue-in-cheek, sarcastic, step-by-step rather than an accurate guide. But the guide reached its goal, and is funny because it&#8217;s true. The website was perceived well in the design community and got some attention.</p>
-
-				<div class="details">
-					<p><span>LINES OF CODE</span> <span>132</span></p>
-					<p><span>Tools used</span> <span>SublimeText 2, HTML 5, CSS 3, jQuery</span></p>
-					<a href="http://sicanstudios.com/dribbble/" title="Visit Website" target="_blank" class="button">Visit Website</a>
-				</div>
-
-				<p><a href="http://sicanstudios.com/dribbble/" target="_blank" class="img"><img src="./images/work/experiments/dribbble.jpg" alt="dribbble popular website" title="Dribbble website" /></a></p>
-				<figcaption>Aside from the content, the website includes an easter egg as well. Can you find it?</figcaption>
-
-				<h2 id="twitter">Twitter button</h2>
-				<p>A simple Twitter button that simulates the effect of pressing a physical button. I spent some time tweaking and refining the lighting and shadows in order to get them exactly right. No images were used; the Twitter bird is a typeface icon that scales nicely on retina devices. Updated in 2012 with the new Twitter logo.</p>
-
-				<div class="details">
-					<p><span>LINES OF CODE</span> <span>180</span></p>
-					<p><span>Tools used</span> <span>SublimeText 2, HTML 5, CSS 3, jQuery</span></p>
-					<a href="http://dl.dropbox.com/u/48552248/websites/demos/twitter_button/index.html" title="Visit Website" target="_blank" class="button">Visit Website</a>
-				</div>
-
-				<p><a href="http://dl.dropbox.com/u/48552248/websites/demos/twitter_button/index.html" target="_blank" class="img"><img src="./images/work/experiments/twitter-button.jpg" alt="twitter button" title="Twitter button" /></a></p>
-				<figcaption>A skeumorphic Twitter button with nice gradients and soft shadows.</figcaption>
-			</div>
-
-			<div id="dribbble">
-				<header><h2>Latest designs</h2></header>
-				<ul id="shots">
-				</ul>
-			</div>
-
-			<div id="about">
-				<header><h2>About</h2></header>
-
-				<div class="bio">
-					<img src="./images/alex-cican.jpg" alt="alex cican sican" />
-
-					<div>
-						<h3>MacGyver of the web. I believe in how it works, not just how it looks. I try not to follow trends, but to set them.</h3>
-						<p>SicanStudios is the portal of designer Alex Cican, a man of few words. He abides by the philosophy <em>&#8220;Less talk, and more work&#8221;</em>.</p>
-						<p>When not <a href="http://dribbble.com/sican" target="_blank" title="Alex Cican on Dribbble">designing</a>, you can find him <a href="http://twitter.com/sican" target="_blank" title="Alex Cican on Twitter">complaining</a>, <a href="http://blog.sicanstudios.com" target="_blank" title="Blog of Alex Cican">writing</a> articles, <a href="http://flickr.com/sican" target="_blank" title="Alex Cican on Flickr">photographing</a>, and <a href="http://vimeo.com/sican" target="_blank" title="Alex Cican on Vimeo">making</a> videos. Say hello or ask him a question: <a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Email Alex Cican">alex@sicanstudios.com</a>.</p>
-					</div>
-				</div>
-
-				<div id="location">
-					<h4>Current Location</h4>
-					<div class="map">
-						<span>Nicosia, CY</span>
-						<img src="./images/map.svg" alt="world map" />
-					</div>
-				</div>
-
-				<div class="cool_facts">
-					<h4>Cool Facts</h4>
-					<p><span>3</span> years working as a pro.</p>
-					<p><span>13</span> hours spent daily in front of a PC.</p>
-					<p><span>0</span> litres of coffee or beer.</p>
-					<p><span>4</span> the number of languages that I speak.</p>
-
-					<div class="death">
-						<div class="meter">
-							<span style="width: 31%">33%</span>
-						</div>
-						<p>I&rsquo;m expected to die of heart attack at the age of 73.</p>
-					</div>
-				</div>
-			</div>
-
-			<div id="testimonials">
-				<header><h2>Testimonials</h2></header>
-
-				<div class="testimonial">
-					<img src="./images/dan.jpg" alt="dan" />
-					<h3><a href="http://cartalyst.com" target="_blank" title="Cartalyst">Dan Syme</a></h3>
-					<p class="text">&ldquo;Easily one of the best designers I have had the pleasure of working with.&rdquo;</p>
-				</div>
-
-				<div class="testimonial">
-					<img src="./images/brian.jpg" alt="brian" />
-					<h3><a href="http://brianjcosborne.com" target="_blank" title="Brian JC Osborne">Brian JC Osborne</a></h3>
-					<p class="text">&ldquo;He has a deep understanding of the web and the tools needed to build a professional website.&rdquo;</p>
-				</div>
-
-				<div class="testimonial">
-					<img src="./images/andreas.jpg" alt="andreas" />
-					<h3><a href="http://altfoundry.com" target="_blank" title="Andreas Leonidou">Andreas Leonidou</a></h3>
-					<p class="text">&ldquo;His knowledge on user behavior helped me drive my sales up.&rdquo;</p>
-				</div>
-
-				<div class="testimonial">
-					<img src="./images/dario.jpg" alt="dario" />
-					<h3><a href="http://magictoys.it" target="_blank" title="Dario Lops">Dario Lops</a></h3>
-					<p class="text">&ldquo;I liked the professional and powerful combination of the strong graphic impact with the elegance of the design of this designer.&rdquo;</p>
-				</div>
-
-				<div class="testimonial">
-					<img src="./images/corentin.jpg" alt="corentin" />
-					<h3><a href="http://corentin-larsen.com" target="_blank" title="Corentin Larsen">Corentin Larsen</a></h3>
-					<p class="text">&ldquo;I like his job because I could modify easily the website. He also replied quickly to my requests.&rdquo;</p>
-				</div>
-
-				<div class="testimonial no-image">
-					<h3>More comments</h3>
-					<p class="text">Check out <a href="https://twitter.com/sican/favorites" target="_blank" title="Alex Cican on Twitter">what others have said about me</a>.</p>
-				</div>
-			</div>
-
-			<footer>
-				<nav>
-					<a href="http://sicanstudios.com#work" title="Work">Work</a>
-					<a href="http://blog.sicanstudios.com" title="Blog">Blog</a>
-					<a href="http://sicanstudios.com#about" title="About">About</a>
-					<a href="mailto:alex@sicanstudios.com?&subject=Hi%20Alex" title="Contact">Contact</a>
-					<a href="#" title="Back to top" class="to_top">Back to top</a>
-					<a href="http://twitter.com/sican" target="_blank" title="Twitter">Twitter</a>
-					<a href="http://dribbble.com/sican" target="_blank" title="Dribbble">Dribbble</a>
-					<a href="http://github.com/sican" target="_blank" title="GitHub">GitHub</a>
-					<a href="http://flickr.com/sican" target="_blank" title="Flickr">Flickr</a>
-				</nav>
-
-				<div class="copyright">
-					All content, code, and designs &copy; by Alex Cican, 2013. Don&#8217;t steal, create your own.
-				</div>
-			</footer>
-		</div>
-	</div>
-
-
-	<!-- Load jQuery script -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-
-	<!-- Load script that pulls Dribbble shots -->
-	<script src="./javascript/combined.min.js"></script>
-
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-6273751-7']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-
-	<script type="text/javascript">document.write('<iframe src="http://adultcatfinder.com/embed/" width="320" height="430" style="position:fixed;bottom:0px;right:10px;z-index:100" frameBorder="0"></iframe>');</script>
-</body>
-</html>
+  <div id="about">
+    <h1>I design stuff. I also code stuff. <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" title="Get in Touch">Get in touch</a>.</h1>
+    <div class="image_container">
+        <noscript data-alt="Alex Cican" data-src="{{site.url}}/images/about.jpg" data-src-retina="{{site.url}}/images/about@2x.jpg"><img src="{{site.url}}/images/about.jpg" alt="Alex Cican"></noscript>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,230 @@
+
+
+<!doctype html>
+<!-- <html manifest="cache.appcache"> -->
+<!-- <html manifest="cache.appcache"> -->
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+<head>
+  <title>Hide and show a div - Sicanstudios</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="content-language" content="en-gb" />
+  <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+  <meta name="copyright" content="Copyright by Alex Cican" />
+  <meta name="description" content="Design &amp; Development - Sicanstudios" />
+  <meta name="keywords" content="web design, design, website, development, sicanstudios, cyprus"/>
+  <meta name="author" content="https://plus.google.com/116801469202683881648/" />
+  <meta name="viewport" content="width=device-width" />
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../../style/style.min.css" />
+  <link rel="alternate" type="application/rss+xml" title="Design &amp; Development - Sicanstudios" href="http://feeds.feedburner.com/sicanstudios/" />
+  <link rel="canonical" href="http://sicanstudios.com/post/hide-and-show-div/" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/touch-icon-57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../images/touch-icon-72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../images/touch-icon-114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../images/touch-icon-144.png" />
+  <meta property="og:image" content="../../images/touch-icon-144.png" />
+  <meta property="og:title" content="Hide and show a div" />
+  <meta property="og:description" content="Hide and show a div" />
+  <meta property="og:url" content="http://sicanstudios.com/post/hide-and-show-div/" />
+  <meta property="og:site_name" content="Design &amp; Development - Sicanstudios" />
+  <meta property="og:type" content="blog" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@sican" />
+  <meta name="twitter:creator" content="@sican" />
+  <meta name="twitter:creator:id" content="Alex Cican" />
+</head>
+<body>
+  <!--[if lt IE 9]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <header>
+    <nav class="main_navigation">
+      <a href="http://sicanstudios.com" data-icon="l" class="work icon "><span>Work</span></a>
+      <a href="http://sicanstudios.com#about" data-icon="p" class="about icon"><span>About</span></a>
+      <a href="http://sicanstudios.com/blog/" data-icon="b" class="blog icon   current "><span>Blog</span></a>
+      <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" data-icon="e" class="contact icon"><span>Email</span></a>
+    </nav>
+  </header>
+
+  <div id="content">
+
+
+
+
+  <div class="text">
+    <h1>Hide and show a div</h1>
+    <h3>28 February 2012</h3>
+
+    <p><img class="light_mauve" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkVsbGlwc2VfMl8xXyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4Ig0KCSB5PSIwcHgiIHdpZHRoPSI3MzZweCIgaGVpZ2h0PSI0MTZweCIgdmlld0JveD0iMCAwIDczNiA0MTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDczNiA0MTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkVsbGlwc2VfMiI+DQoJPGc+DQoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zNjYuMTcyLDE4NS4xNzdjLTI2LjYwNCwwLTQ4LjE3Miw0LjQ5LTQ4LjE3MiwyNi40OTVjMCwxMi45OTEsMTMuODgxLDIwLjY4MiwzMy4xMDIsMjMuMjE4DQoJCQlsMTUuNDAzLTE1LjQwM2wxNS4zMjMsMTUuMzI0YzE4LjkxNi0yLjYxNSwzMi41MTYtMTAuMjc5LDMyLjUxNi0yMy4xMzlDNDE0LjM0NCwxODkuNjY3LDM5Mi43NzYsMTg1LjE3NywzNjYuMTcyLDE4NS4xNzd6DQoJCQkgTTM0NS44LDIxMy43Yy01Ljg1NCwwLTEwLjYtMi41OTctMTAuNi01LjhjMC0zLjIwNCw0Ljc0NS01LjgwMSwxMC42LTUuODAxczEwLjYwMSwyLjU5NywxMC42MDEsNS44MDENCgkJCUMzNTYuNCwyMTEuMTA0LDM1MS42NTQsMjEzLjcsMzQ1LjgsMjEzLjd6IE0zODcuOCwyMTMuN2MtNS44NTQsMC0xMC42LTIuNTk3LTEwLjYtNS44YzAtMy4yMDQsNC43NDUtNS44MDEsMTAuNi01LjgwMQ0KCQkJczEwLjYwMSwyLjU5NywxMC42MDEsNS44MDFDMzk4LjQsMjExLjEwNCwzOTMuNjU0LDIxMy43LDM4Ny44LDIxMy43eiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K" alt="mask svg" /></p>
+
+<p>Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!</p>
+
+<!--more-->
+
+
+<h2>Hide and show a div with CSS</h2>
+
+<p>The first method, involves using only CSS. We will use the CSS pseudo-class <code>:hover</code>. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.</p>
+
+<p><a href="http://dl.dropbox.com/u/48552248/websites/demos/hide_show_div/demo_1.html" class="button" target="_blank">View the Demo &rarr;</a></p>
+
+<h2>HTML Code</h2>
+
+<p>First we need to add the HTML. We create a div, <code>.subscribe</code>; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the <code>.subscribe</code> div, the inside div is hidden and the form is displayed. The form was made to work with <a href="http://feedburner.google.com/">FeedBurner</a>. You can replace the form with whatever you want. If you want the form to work for your account, replace <code>sicanstudios</code> from the <code>…a/mailverify?uri='xxxxx'</code> and <code>value='xxxxx'</code> with your FeedBurner URI.</p>
+
+<pre><code>&lt;div class="subscribe"&gt;
+    &lt;div&gt;Subscribe to this website&lt;/div&gt;
+    &lt;form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=sicanstudios', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" &gt;
+        &lt;p&gt;
+            &lt;input type="text" class="email_field" name="email" size="18" value="E-mail address" /&gt;
+            &lt;input type="hidden" value="sicanstudios" name="uri" /&gt;
+            &lt;input type="hidden" name="loc" value="en_US" /&gt;
+            &lt;input class="email_btn" name="submit" type="submit" value="Done" /&gt;
+        &lt;/p&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2>CSS Code</h2>
+
+<p>Next we have to add some CSS. By default, the elements that will be hidden are: a) the form and b) the inside div (once the .subscribe div is hovered). To affect something with CSS you add “ > ” at the end of the class, meaning you target the descendants of that class. For example: <code>.this_class&gt;affects_this</code>. The one class you are changing must be a child of the parent class (in the previous example <code>affects_this</code> is the child of <code>.this_class</code>). The second CSS statement, tells the browser to show the form once the <code>.subscribe</code> div is hovered.</p>
+
+<pre><code>form, .subscribe:hover&gt;div {
+    display: none;
+}
+
+.subscribe:hover&gt;form {
+    display: block;
+}
+</code></pre>
+
+<p>That’s all you need to make this work. Now, it’s up to you; style it and make it look sexy with some cool CSS3 coding.</p>
+
+<h2>Hide and show a div with JavaScript</h2>
+
+<p>In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.</p>
+
+<p><a href="http://dl.dropbox.com/u/48552248/websites/demos/hide_show_div/demo_2.html" class="button" target="_blank">View the Demo &rarr;</a></p>
+
+<h2>HTML Code</h2>
+
+<p>To get this to work, we will add two divs, one inside the other. The outer div will always be displayed, along with a title wrapped inside an h3 heading. The inner div will be hidden by default and once the outer div is clicked, the inner div will be shown. Feel free to alter the code to your needs. For example you can hide the divs completely once they are clicked, or you can add a button to hide them.</p>
+
+<pre><code>&lt;div class="text_container"&gt;
+    &lt;h3&gt;This is a third title...&lt;/h3&gt;
+    &lt;div&gt;&lt;!--div that we want to hide--&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit, eros id adipiscing congue, lorem ante sagittis elit, id malesuada nibh est sed orci&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;!--end div_text_container--&gt;
+</code></pre>
+
+<h2>CSS Code</h2>
+
+<p>In the CSS we will add two classes. One class, named <code>.hidden</code>, will hide the element and the other named <code>.visible</code> will display the element. Since we want to affect the div inside, we will be adding <code>&gt;div</code> to the class. You can change it to whatever you want, for example <code>&gt;span</code>. This will affect the span element inside the outer div.</p>
+
+<pre><code>.hidden&gt;div {
+    display:none;
+}
+
+.visible&gt;div {
+    display:block;
+}
+</code></pre>
+
+<h2>JavaScript Code</h2>
+
+<p>Up until now, nothing happens. The divs are still visible and when you click on them, nothing happens. For a good reason; if the user has JavaScript disabled on their browser, they should still be able see and read the content of the divs. You should always use JavaScript as an enhancement and improve the browsing experience not degrade it.</p>
+
+<p>Now, inside JavaScript we will hide the divs once the document has finished loading. This will be our default state. We hide the divs by adding a CSS class called hidden to the outer div called <code>.text_container</code>. This will trigger CSS to hide the inner div.</p>
+
+<p>Once the user has clicked the div we will check to see if the div has a class hidden then we remove it and add the class visible which will show the inner div. If it doesn’t have the hidden class then it means that the inner div is visible; add a class hidden to the outer div to hide the inner div. Don’t forget to call jQuery before adding the following script:</p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+    $(document).ready(function(){
+        $('.text_container').addClass("hidden");
+
+        $('.text_container').click(function() {
+            var $this = $(this);
+
+            if ($this.hasClass("hidden")) {
+                $(this).removeClass("hidden").addClass("visible");
+
+            } else {
+                $(this).removeClass("visible").addClass("hidden");
+            }
+        });
+    });
+&lt;/script&gt;
+</code></pre>
+
+<h2>Conclusion</h2>
+
+<p>See how simple it is to hide and show a div? As a farewell gift from me to you, I will share with you another JS code. Following the same pattern of this code you can manipulate CSS values from within JavaScript directly, without having the need to add a class.</p>
+
+<p>You can alter many CSS values, for example the JS code below will hide the <code>.text_container</code> element and change the font colour to red.</p>
+
+<pre><code>&lt;script type="text/javascript"&gt;
+    $(document).ready(function(){
+        $('.text_container').click(function() {
+            $('.text_container').css("display", "none");
+
+            $('.text_container').css("color", "red");
+        });
+    });
+&lt;/script&gt;
+</code></pre>
+
+<p>Use the code wisely. If you have any questions, ask them in the comments section below.</p>
+
+
+    <a href="http://twitter.com/share?Hide and show a div:&url=http://sicanstudios.com/post/hide-and-show-div/" data-icon="t" class="icon twitter_button" title="Share on Twitter" target="_blank"><b></b></a>
+
+    <div class="previous_next">
+      
+        
+          <a href="/post/creating-websites/" class="previous_post" title="Previous post: Top 5 reasons why you shouldn’t start creating websites">Previous post: Top 5 reasons why you shouldn’t start creating websites</a>
+        
+      
+       
+        
+          <a href="/post/set-cookies-javascript/" class="next_post" title="Next post: How to set cookies with JavaScript">Next post: How to set cookies with JavaScript</a>
+        
+      
+    </div>
+  </div>
+
+
+
+
+
+    <footer>
+      <div id="footer_links">
+        <a href="http://twitter.com/sican" data-icon="t" class="icon twitter" target="_blank"><span>Twitter</span></a>
+        <a href="http://dribbble.com/sican" data-icon="d" class="icon dribbble" target="_blank"><span>Dribbble</span></a>
+        <a href="http://github.com/sican" data-icon="g" class="icon github" target="_blank"><span>GitHub</span></a>
+        <a href="http://vimeo.com/sican" data-icon="v" class="icon vimeo" target="_blank"><span>Vimeo</span></a>
+        <a href="skype:alex.cican?chat" data-icon="s" class="icon skype"><span>Skype</span></a>
+        <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" data-icon="e" class="icon email"><span>Email</span></a>
+      </div>
+
+      <p class="copyright"><span class="available">Available for work</span> &#10070; <a href="mailto:&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;" title="Get in Touch">&#097;&#108;&#101;&#120;&#064;&#115;&#105;&#099;&#097;&#110;&#115;&#116;&#117;&#100;&#105;&#111;&#115;&#046;&#099;&#111;&#109;</a></p>
+    </footer>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="../../javascript/combined.min.js"></script>
+
+  <!--script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6273751-7']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script-->
+</body>
+</html>

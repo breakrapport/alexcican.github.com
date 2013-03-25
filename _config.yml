@@ -1,0 +1,10 @@
+name: "Sicanstudios"
+description: "Design & Development from Alex Cican"
+
+url: "http://sicanstudios.com"
+
+# paginate: 10
+
+markdown: rdiscount
+permalink: /post/:title/
+# pygments: true
