@@ -9,23 +9,23 @@ designs: '
 </div>
 
 <div class="image_container">
-  <noscript data-alt="alt-foundry homepage" data-src="{{site.url}}/images/work/alt-foundry/homepage.jpg" data-src-retina="{{site.url}}/images/work/alt-foundry/homepage@2x.jpg"><img src="{{site.url}}/images/work/alt-foundry/homepage.jpg" alt="alt-foundry homepage"></noscript>
+  <noscript data-alt="alt-foundry homepage" data-src="http://sicanstudios.com/images/work/alt-foundry/homepage.jpg" data-src-retina="http://sicanstudios.com/images/work/alt-foundry/homepage@2x.jpg"><img src="http://sicanstudios.com/images/work/alt-foundry/homepage.jpg" alt="alt-foundry homepage"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="alt-foundry font page" data-src="{{site.url}}/images/work/alt-foundry/font-page.png" data-src-retina="{{site.url}}/images/work/alt-foundry/font-page@2x.png"><img src="{{site.url}}/images/work/alt-foundry/font-page.png" alt="alt-foundry font page"></noscript>
+  <noscript data-alt="alt-foundry font page" data-src="http://sicanstudios.com/images/work/alt-foundry/font-page.png" data-src-retina="http://sicanstudios.com/images/work/alt-foundry/font-page@2x.png"><img src="http://sicanstudios.com/images/work/alt-foundry/font-page.png" alt="alt-foundry font page"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="alt-foundry about" data-src="{{site.url}}/images/work/alt-foundry/about.png" data-src-retina="{{site.url}}/images/work/alt-foundry/about@2x.png"><img src="{{site.url}}/images/work/alt-foundry/about.png" alt="alt-foundry about"></noscript>
+  <noscript data-alt="alt-foundry about" data-src="http://sicanstudios.com/images/work/alt-foundry/about.png" data-src-retina="http://sicanstudios.com/images/work/alt-foundry/about@2x.png"><img src="http://sicanstudios.com/images/work/alt-foundry/about.png" alt="alt-foundry about"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="alt-foundry type-tester" data-src="{{site.url}}/images/work/alt-foundry/type-tester.png" data-src-retina="{{site.url}}/images/work/alt-foundry/type-tester@2x.png"><img src="{{site.url}}/images/work/alt-foundry/type-tester.png" alt="alt-foundry type-tester"></noscript>
+  <noscript data-alt="alt-foundry type-tester" data-src="http://sicanstudios.com/images/work/alt-foundry/type-tester.png" data-src-retina="http://sicanstudios.com/images/work/alt-foundry/type-tester@2x.png"><img src="http://sicanstudios.com/images/work/alt-foundry/type-tester.png" alt="alt-foundry type-tester"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="alt-foundry footer" data-src="{{site.url}}/images/work/alt-foundry/footer.png" data-src-retina="{{site.url}}/images/work/alt-foundry/footer@2x.png"><img src="{{site.url}}/images/work/alt-foundry/footer.png" alt="alt-foundry footer"></noscript>
+  <noscript data-alt="alt-foundry footer" data-src="http://sicanstudios.com/images/work/alt-foundry/footer.png" data-src-retina="http://sicanstudios.com/images/work/alt-foundry/footer@2x.png"><img src="http://sicanstudios.com/images/work/alt-foundry/footer.png" alt="alt-foundry footer"></noscript>
 </div>
 '
 ---
@@ -41,7 +41,7 @@ The client requested from me to design and develop a complete e-commerce website
 
 For the design of the website, he gave me complete creative freedom, asking only the website to have a simple, minimalistic design. Having shown him the first drafts, he was very happy with the initial result.
 
-<a href="../images/work/alt-foundry/homepage@2x.jpg" class="img" target="_blank"><img src="../images/work/alt-foundry/homepage.jpg" alt="alt foundry website" title="Alt-Foundry website" /></a>
+<a href="http://sicanstudios.com/images/work/alt-foundry/homepage@2x.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/alt-foundry/homepage.jpg" alt="alt foundry website" title="Alt-Foundry website" /></a>
 
 ##Functionality
 The website should be able to do the following (everything was implemented):
@@ -64,7 +64,7 @@ The website was coded in valid xHTML Strict 1.0 and CSS3. Once all the design as
 
 Browsing the Internet and researching other font selling websites like <a href="http://new.myfonts.com/" target="_blank">MyFonts</a>, I decided that online testing of the fonts prior to purchasing is crucial for the potential buyer. It shows how the font and variations of the font will look with some user inputed text. I could not rely on the browser&#8217;s font rendering engine to display the text because every browser and OS renders the fonts differently.
 
-<img src="../images/work/alt-foundry/testing-fonts.jpg" alt="testing fonts" />
+<img src="http://sicanstudios.com/images/work/alt-foundry/testing-fonts.jpg" alt="testing fonts" />
 
 In order to depict an accurate representation of the font, images had to be used to show the custom text. Whenever the user typed in some text, using PHP I would have the server render a PNG image with the typed text, using that particular font, and sent back to the user. Coding this script proved to be the most challenging part of this project.
 
@@ -75,7 +75,7 @@ In matters of accessibility all images were added an <code>alt</code> tag, a &#8
 
 When creating the testing of the fonts, it was necessary to add a no JavaScript alternative. Because testing the fonts was partially done using JS in case the user had JS disabled, the fallback would be to display the fonts as an image (without the possibility to test the fonts). In this way, the fonts can still be seen and bought if desired.
 
-<img src="../images/work/alt-foundry/no-javascript.jpg" alt="no javascript fonts" />
+<img src="http://sicanstudios.com/images/work/alt-foundry/no-javascript.jpg" alt="no javascript fonts" />
 
 In the contact form, if the completed fields were incorrect, using jQuery, the erroneous fields would have a red coloured background and the website would request from the user to correct those fields. Moreover, checking the fields again back-end was necessary, in case someone with JavaScript disabled tried to &#8220;trick&#8221; the system entering phony details.
 
@@ -86,13 +86,13 @@ Whenever the user would add a product to the cart, a bar on top of their browser
 
 Besides the message bar, the cart button in the header, prominent in all of the website&#8217;s pages, would display the amount of products the user has in their cart. If the user would hover the button, it would dropdown, displaying the total amount for the products. Once clicked, they would be taken to the cart page. The cart was designed with cookies, so the product would remain in the cart even after you would close the website (it would save the session until you closed the browser).
 
-<img src="../images/work/alt-foundry/cart-functionality.jpg" alt="cart functionality" />
+<img src="http://sicanstudios.com/images/work/alt-foundry/cart-functionality.jpg" alt="cart functionality" />
 
 ##Shopping Cart
 The cart features a simple one-step checkout, no sign-up required. In the cart page, the user can remove products from the cart, add a discount code, or clear their cart. Once they are done, all they have to do is click to pay via PayPal.
 
 If the fonts are free of charge, instead of the PayPal button, a download button is displayed. Once clicked, the fonts in the cart are downloaded as a ZIP file and the cart is cleared.
 
-<img src="../images/work/alt-foundry/checkout-button.jpg" alt="checkout button" />
+<img src="http://sicanstudios.com/images/work/alt-foundry/checkout-button.jpg" alt="checkout button" />
 
 In conclusion this project was challenging but fun to complete. I enjoyed collaborating with Andreas and learned a lot from this project that will prove useful in the future.

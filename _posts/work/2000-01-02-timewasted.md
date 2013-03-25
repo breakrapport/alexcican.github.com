@@ -9,19 +9,19 @@ designs: '
 </div>
 
 <div class="image_container">
-  <noscript data-alt="timewasted mobile design" data-src="{{site.url}}/images/work/timewasted/mobile-design.jpg" data-src-retina="{{site.url}}/images/work/timewasted/mobile-design@2x.jpg"><img src="{{site.url}}/images/work/timewasted/mobile-design.jpg" alt="timewasted mobile design"></noscript>
+  <noscript data-alt="timewasted mobile design" data-src="http://sicanstudios.com/images/work/timewasted/mobile-design.jpg" data-src-retina="http://sicanstudios.com/images/work/timewasted/mobile-design@2x.jpg"><img src="http://sicanstudios.com/images/work/timewasted/mobile-design.jpg" alt="timewasted mobile design"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="timewasted mobile screens" data-src="{{site.url}}/images/work/timewasted/mobile-screens.png" data-src-retina="{{site.url}}/images/work/timewasted/mobile-screens@2x.png"><img src="{{site.url}}/images/work/timewasted/mobile-screens.png" alt="timewasted mobile screens"></noscript>
+  <noscript data-alt="timewasted mobile screens" data-src="http://sicanstudios.com/images/work/timewasted/mobile-screens.png" data-src-retina="http://sicanstudios.com/images/work/timewasted/mobile-screens@2x.png"><img src="http://sicanstudios.com/images/work/timewasted/mobile-screens.png" alt="timewasted mobile screens"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="timewasted tablet and mobile" data-src="{{site.url}}/images/work/timewasted/tablet-mobile.jpg" data-src-retina="{{site.url}}/images/work/timewasted/tablet-mobile@2x.jpg"><img src="{{site.url}}/images/work/timewasted/tablet-mobile.jpg" alt="timewasted tablet and mobile"></noscript>
+  <noscript data-alt="timewasted tablet and mobile" data-src="http://sicanstudios.com/images/work/timewasted/tablet-mobile.jpg" data-src-retina="http://sicanstudios.com/images/work/timewasted/tablet-mobile@2x.jpg"><img src="http://sicanstudios.com/images/work/timewasted/tablet-mobile.jpg" alt="timewasted tablet and mobile"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="timewasted desktop add show" data-src="{{site.url}}/images/work/timewasted/desktop-add-show.png" data-src-retina="{{site.url}}/images/work/timewasted/desktop-add-show@2x.png"><img src="{{site.url}}/images/work/timewasted/desktop-add-show.png" alt="timewasted desktop add show"></noscript>
+  <noscript data-alt="timewasted desktop add show" data-src="http://sicanstudios.com/images/work/timewasted/desktop-add-show.png" data-src-retina="http://sicanstudios.com/images/work/timewasted/desktop-add-show@2x.png"><img src="http://sicanstudios.com/images/work/timewasted/desktop-add-show.png" alt="timewasted desktop add show"></noscript>
 </div>
 '
 ---
@@ -36,22 +36,22 @@ This has several advantages some of which: you get all the profit from the app�
 
 The idea for the app came to me from all these productivity and time management tools that calculate how much time you&#8217;ve spent on a task. Why not have a calculator that shows you how much time you&#8217;ve wasted watching TV shows?
 
-<a href="../images/work/timewasted/timewasted.jpg" class="img" target="_blank"><img src="../images/work/timewasted/timewasted-small.jpg" alt="timewasted design" title="TimeWasted design" /></a>
+<a href="http://sicanstudios.com/images/work/timewasted/timewasted.jpg" class="img" target="_blank"><img src="../images/work/timewasted/timewasted-small.jpg" alt="timewasted design" title="TimeWasted design" /></a>
 
 Time flies and we are often unaware of this when we&#8217;re watching TV shows. Slowly, with time, the total amount spent on TV shows adds up to days, even weeks. By evaluating the time spent on TV shows on a calculator, maybe you will reduce the time you spend on watching TV shows. Even better, you may decide to spend your time on something else, like starting a business, improving your craft, or reading a book.
 
 For some time now, I&#8217;ve been wanting to create this app. It wasnt&#8217;t until November 2011, that I got a chance to begin working on it. Here&#8217;s the initial homepage design that I had drafted back then:
 
-<img src="../images/work/timewasted/timewasted-old.jpg" alt="old timewasted design" title="Old TimeWasted design" />
+<img src="http://sicanstudios.com/images/work/timewasted/timewasted-old.jpg" alt="old timewasted design" title="Old TimeWasted design" />
 
 ##iPhone and iPad
 The web app was optimised for the iPhone and the iPad. Several elements were included or excluded from the devices accordingly.
 
-<a href="../images/work/timewasted/ipad-iphone.jpg" class="img" target="_blank"><img src="../images/work/timewasted/ipad-iphone-small.jpg" alt="iPad iPhone design" title="iPad iPhone design" /></a>
+<a href="http://sicanstudios.com/images/work/timewasted/ipad-iphone.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/timewasted/ipad-iphone-small.jpg" alt="iPad iPhone design" title="iPad iPhone design" /></a>
 
 On first load, an *&#8220;add to homepage&#8221;* popup would appear once, asking the user to add this web app to their home screen. A homepage iOS icon was created for this instance.
 
-<img src="../images/work/timewasted/ios-icon.jpg" alt="iOS icon" title="iOS icon" />
+<img src="http://sicanstudios.com/images/work/timewasted/ios-icon.jpg" alt="iOS icon" title="iOS icon" />
 
 If the user is browsing from an iPhone, using JavaScript, I hide the mobile Safari browser&#8217;s address bar to create more room for the application’s interface. On mobile devices, social buttons were disabled from loading to save bandwidth and only the &#8220;Tweet my results&#8221; button was kept.
 
@@ -59,18 +59,18 @@ Each device is served a different design (responsive design). On the iPhone and 
 
 The method of having a fixed element and scroll inside it, doesn&#8217;t work on iOS devices. Therefore, I used a handy JS plugin called <a href="http://cubiq.org/iscroll-4" target="_blank">iScroll</a>. The problem that I encountered was I couldn&#8217;t fetch new data with AJAX and refresh the iScroll to work properly with the new content. That&#8217;s why the app has three different pages. I would prefer a single page without refreshing, by using AJAX to fetch additional content behind the scenes, but it wasn’t possible.
 
-The issue, of fixed element and scrollable container, explained in the previous paragraph is solved on iOS 5 and above. It works, without the need for additional plugins or hacks. But in order to make the app accessible for iOS 4 and iOS 5 users, I had to guess what iOS was being used and serve them with different content. I wrote a tutorial about it: <a href="http://blog.sicanstudios.com/post/different-content-css-ios-version" target="_blank">Different content or CSS depending on iOS version</a>.
+The issue, of fixed element and scrollable container, explained in the previous paragraph is solved on iOS 5 and above. It works, without the need for additional plugins or hacks. But in order to make the app accessible for iOS 4 and iOS 5 users, I had to guess what iOS was being used and serve them with different content. I wrote a tutorial about it: <a href="http://sicanstudios.com/post/different-content-css-ios-version" target="_blank">Different content or CSS depending on iOS version</a>.
 
 Aside from the portrait version, the app also has a landscape version. Using CSS3, the design is altered accordingly to accommodate for more space. Additional text was added to some elements. For example the button which adds a TV show to the list, in portrait mode it says &#8220;Add this&#8221; and in landscape mode it says &#8220;Add this TV show&#8221;.
 
-<a href="../images/work/timewasted/landscape-portrait.jpg" class="img" target="_blank"><img src="../images/work/timewasted/landscape-portrait-small.jpg" alt="landscape portrait orientation" title="Landscape/Portrait orientation" /></a>
+<a href="http://sicanstudios.com/images/work/timewasted/landscape-portrait.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/timewasted/landscape-portrait-small.jpg" alt="landscape portrait orientation" title="Landscape/Portrait orientation" /></a>
 
 ##Production
 For the development of this app, I decided to use the latest technologies available at that time: HTML5 and CSS3. Using <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a> as the backend of this web app had many advantages. One of which was that the browsing experience degraded gracefully in browsers that don&#8217;t yet support this technology.
 
 Along with PHP, the app relies heavily on jQuery and AJAX in order to work. When the user types in their favourite shows, a dropdown with all the available shows appears. The user can select one from the list or continue typing to refine the result.
 
-<img src="../images/work/timewasted/dropdown.jpg" alt="dropdown" title="Dropdown" />
+<img src="http://sicanstudios.com/images/work/timewasted/dropdown.jpg" alt="dropdown" title="Dropdown" />
 
 The app displays how much time was wasted, by multiplying the total number of shows and the number of seasons for each show inputted by the user. It searches the database for the show and multiplies the number of seasons with the episodes per season (average) times the runtime (minutes) for each episode (seasons x episodes x minutes). It then takes the total minutes and divides them into &#8220;Days&#8221;, &#8220;Hours&#8221; and &#8220;Minutes&#8221;.
 
@@ -79,7 +79,7 @@ In order to make app load faster, the number of connections to the database was 
 ##Error checking
 Error checking is an important part of any project. It&#8217;s like having a proofreader. Because there is interaction with the user, all possibilities were accounted for. If the user has JavaScript disabled, a notification appears at the top, asking the user to enable JS in order to use the web app.
 
-<img src="../images/work/timewasted/javascript-disabled.jpg" alt="javascript disabled" title="Javascript disabled" />
+<img src="http://sicanstudios.com/images/work/timewasted/javascript-disabled.jpg" alt="javascript disabled" title="Javascript disabled" />
 
 The user is not allowed to advance if they forgot to introduce a TV show or didn&#8217;t select a number of seasons. Moreover, if they directly accessed the results page, they are redirected to the home screen to go through the process of adding a TV show to the list first.
 
@@ -97,6 +97,6 @@ I always admired Google for their search algorithm. You type in whatever you can
 
 If you type in for example &#8220;Breaking&#8221;, the show Breaking Bad will be listed. If you type in first &#8220;Bad&#8221;, the same show will be displayed. Where I took it a step further, was in adding the main character(s)/actor(s) as a search term. So if you type in &#8220;Heisenberg&#8221;, the show Breaking Bad will appear. Similarly, if you type in &#8220;Stewie&#8221;, the TV show Family Guy will be listed.
 
-<img src="../images/work/timewasted/30-rock.jpg" alt="30 rock" title="30 rock confusion" />
+<img src="http://sicanstudios.com/images/work/timewasted/30-rock.jpg" alt="30 rock" title="30 rock confusion" />
 
 The negative aspect of this is if the user for example types in &#8220;Tr&#8221; searching for True Blood and the TV show 30 Rock is listed. It could make the user wonder why it&#8217;s shown in the results (because of Tracy Jordan, a character in the show).

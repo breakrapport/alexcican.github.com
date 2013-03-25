@@ -13,7 +13,7 @@ The first thing you notice when visiting this site: Big type.
 
 I used to hate big type for websites. Until I switched to a 13” 2013 MacBook Air (1440px wide). Since then, I caught myself, quite often, increasing the font size when browsing [Cmd + '+']—mostly when browsing designer websites.
 
-<a href="http://dl.dropbox.com/u/48552248/websites/sicanstudios/new/jekyll/images/blog/assets/sicanstudios-responsive.png" class="img" target="_blank"><img src="http://dl.dropbox.com/u/48552248/websites/sicanstudios/new/jekyll/images/blog/assets/sicanstudios-responsive.png" alt="sicastudios responsive" /></a>
+<a href="http://sicanstudios.com/images/blog/assets/sicanstudios-responsive.png" class="img" target="_blank"><img src="http://sicanstudios.com/images/blog/assets/sicanstudios-responsive.png" alt="sicastudios responsive" /></a>
 
 The type of this site is not ginormous. When the browser has a width above 1260px, it features a font size of 24px for the body, under 1260px and above 768px (tablets and old PCs), it features a font size of 22px, and for mobile a font size of 18px. I think these font sizes provide the optimum reading experience on each device.
 
@@ -29,7 +29,7 @@ So I got rid of showing the case study and project images in the form of a blog 
 ##Loading case studies
 The case study slides up, on the same page, and blurs the content behind it. The content is loaded with AJAX from the dedicated project page. Because this browsing experience is not very common, to avoid confusion, you can click anywhere around the loaded content to close the case study (see below).
 
-![sicanstudios closing area](http://dl.dropbox.com/u/48552248/websites/sicanstudios/new/jekyll/images/blog/assets/closing-area.png)
+![sicanstudios closing area](http://sicanstudios.com/images/blog/assets/closing-area.png)
 
 Additional functionality was added to remember the scroll position of user at time the case study was opened. Moreover, if the user navigated to another page and then used the back button, the case study should be loaded again.
 
@@ -40,7 +40,7 @@ The projects are presented by showing only a logo and a solid background. This i
 
 The image area is divided by the number of total images of the project:
 
-![division portfolio area](http://dl.dropbox.com/u/48552248/websites/sicanstudios/new/jekyll/images/blog/assets/project-division.svg)
+![division portfolio area](http://sicanstudios.com/images/blog/assets/project-division.svg)
 
 By just moving your mouse over the different areas, the main image is switched for another one. The user doesn’t have to click *“next”*, or click an arrow, or a small bullet—all common functionalities of slideshows.
 
@@ -83,7 +83,7 @@ Unless English isn’t your native language.
 
 Then you could mistake *“home”* for *“man”* (*“homme”* in French).
 
-<a href="http://dl.dropbox.com/u/48552248/websites/sicanstudios/new/jekyll/images/blog/assets/sicanstudios-icons.svg" class="img" target="_blank"><img src="http://dl.dropbox.com/u/48552248/websites/sicanstudios/new/jekyll/images/blog/assets/sicanstudios-icons.svg" class="yellow" alt="sicastudios icons svg" /></a>
+<a href="http://sicanstudios.com/images/blog/assets/sicanstudios-icons.svg" class="img" target="_blank"><img src="http://sicanstudios.com/images/blog/assets/sicanstudios-icons.svg" class="yellow" alt="sicastudios icons svg" /></a>
 
 Aside from this, I wanted to provoke the user’s curiosity, and have them explore the icons, engage with the website. Hence I also removed the text under the icons (it appears on hover). You have to move your mouse over to see what each icon represents. Which brings me to my next point.
 

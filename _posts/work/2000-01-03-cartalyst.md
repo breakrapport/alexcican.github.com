@@ -9,23 +9,23 @@ designs: '
 </div>
 
 <div class="image_container">
-  <noscript data-alt="Cartalyst homepage" data-src="{{site.url}}/images/work/cartalyst/homepage.jpg" data-src-retina="{{site.url}}/images/work/cartalyst/homepage@2x.jpg"><img src="{{site.url}}/images/work/cartalyst/homepage.jpg" alt="Cartalyst homepage"></noscript>
+  <noscript data-alt="Cartalyst homepage" data-src="http://sicanstudios.com/images/work/cartalyst/homepage.jpg" data-src-retina="http://sicanstudios.com/images/work/cartalyst/homepage@2x.jpg"><img src="http://sicanstudios.com/images/work/cartalyst/homepage.jpg" alt="Cartalyst homepage"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="Cartalyst features" data-src="{{site.url}}/images/work/cartalyst/features.jpg" data-src-retina="{{site.url}}/images/work/cartalyst/features@2x.jpg"><img src="{{site.url}}/images/work/cartalyst/features.jpg" alt="Cartalyst features"></noscript>
+  <noscript data-alt="Cartalyst features" data-src="http://sicanstudios.com/images/work/cartalyst/features.jpg" data-src-retina="http://sicanstudios.com/images/work/cartalyst/features@2x.jpg"><img src="http://sicanstudios.com/images/work/cartalyst/features.jpg" alt="Cartalyst features"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="Cartalyst marketplace" data-src="{{site.url}}/images/work/cartalyst/marketplace.jpg" data-src-retina="{{site.url}}/images/work/cartalyst/marketplace@2x.jpg"><img src="{{site.url}}/images/work/cartalyst/marketplace.jpg" alt="Cartalyst marketplace"></noscript>
+  <noscript data-alt="Cartalyst marketplace" data-src="http://sicanstudios.com/images/work/cartalyst/marketplace.jpg" data-src-retina="http://sicanstudios.com/images/work/cartalyst/marketplace@2x.jpg"><img src="http://sicanstudios.com/images/work/cartalyst/marketplace.jpg" alt="Cartalyst marketplace"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="Cartalyst responsive website" data-src="{{site.url}}/images/work/cartalyst/responsive.jpg" data-src-retina="{{site.url}}/images/work/cartalyst/responsive@2x.jpg"><img src="{{site.url}}/images/work/cartalyst/responsive.jpg" alt="Cartalyst responsive website"></noscript>
+  <noscript data-alt="Cartalyst responsive website" data-src="http://sicanstudios.com/images/work/cartalyst/responsive.jpg" data-src-retina="http://sicanstudios.com/images/work/cartalyst/responsive@2x.jpg"><img src="http://sicanstudios.com/images/work/cartalyst/responsive.jpg" alt="Cartalyst responsive website"></noscript>
 </div>
 
 <div class="image_container">
-  <noscript data-alt="Cartalyst designs" data-src="{{site.url}}/images/work/cartalyst/designs.jpg" data-src-retina="{{site.url}}/images/work/cartalyst/designs@2x.jpg"><img src="{{site.url}}/images/work/cartalyst/designs.jpg" alt="Cartalyst designs"></noscript>
+  <noscript data-alt="Cartalyst designs" data-src="http://sicanstudios.com/images/work/cartalyst/designs.jpg" data-src-retina="http://sicanstudios.com/images/work/cartalyst/designs@2x.jpg"><img src="http://sicanstudios.com/images/work/cartalyst/designs.jpg" alt="Cartalyst designs"></noscript>
 </div>
 '
 ---
@@ -40,18 +40,18 @@ The website was coded in HTML5 and CSS3. As a backend, FuelPHP (a PHP framework)
 
 The complete website has many sections (some not yet implemented) like advocate, features, roadmap, blog, forums, marketplace, user registration, profiles, documentation, job board, and others.
 
-<a href="{{site.url}}/images/work/cartalyst/homepage@2x.jpg" class="img" target="_blank"><img src="{{site.url}}/images/work/cartalyst/homepage.jpg" alt="cartalyst homepage" title="Cartalyst Homepage"/></a>
+<a href="http://sicanstudios.com/images/work/cartalyst/homepage@2x.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/cartalyst/homepage.jpg" alt="cartalyst homepage" title="Cartalyst Homepage"/></a>
 
 ##Design
 For the design of the website, Dan (co-founder) pretty much gave me a blank canvas to impress him with my ideas. They wanted a simple, clean (without gradients or 3D effects) design that would reflect their philosophy. The only requirement was to use a purple shade, their signature colour, for headings and images.
 
-<a href="{{site.url}}/images/work/cartalyst/homepage-iterations.jpg" class="img" target="_blank"><img src="{{site.url}}/images/work/cartalyst/homepage-iterations-small.jpg" alt="homepage iterations" title="Homepage Iterations"/></a>
+<a href="http://sicanstudios.com/images/work/cartalyst/homepage-iterations.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/cartalyst/homepage-iterations-small.jpg" alt="homepage iterations" title="Homepage Iterations"/></a>
 
 After many iterations, and taking into account many variables, we finally decided how each section of the website would look like. It was time to code the design. I used HTML5 and LESS for writing the CSS3 code, which made the development a lot easier.
 
 In the *Features* section of the website, a content slider was implemented. You can slide content by either clicking on the tabs, using the buttons below the content, pressing your keyboard arrows, and on mobile devices swiping your finger left and right. The content slider (which is also future-proof) couldn’t have been implemented without the very useful <a href="https://github.com/bradbirdsall/Swipe/tree/swipe2" target="_blank">Swipe 2 plugin</a>.
 
-<img src="{{site.url}}/images/work/cartalyst/features-tab.jpg" alt="features" title="Browsing Features"/>
+<img src="http://sicanstudios.com/images/work/cartalyst/features-tab.jpg" alt="features" title="Browsing Features"/>
 
 ##Accessibility
 In matters of accessibility all images were added an &#8220;alt&#8221; tag, semantic and descriptive coding, “skip to content” for screen readers, and many more. One major request from the client was IE 8 support. This meant that I had to introduce some browser hacks to make the site looking as best as possible on Internet Explorer.
