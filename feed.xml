@@ -14,8 +14,8 @@ layout: nil
         <item>
           <title>{{ post.title }}</title>
           <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-          <link>http://sicanstudios.com/post{{ post.url }}</link>
-          <guid>http://sicanstudios.com/post{{ post.url }}</guid>
+          <link>{{ site.url }}{{ post.url }}</link>
+          <guid>{{ site.url }}{{ post.url }}</guid>
           <description>{{ post.content | xml_escape }}</description>
         </item>
       {% endif %}

@@ -1,8 +1,7 @@
 
 
 <!doctype html>
-<!-- <html manifest="cache.appcache"> -->
-<!-- <html manifest="cache.appcache"> -->
+<html manifest="http://sicanstudios.com/cache.appcache">
 <!--[if IE 9 ]><html class="ie9"><![endif]-->
 <head>
   <title>How I moved my blog to Dropbox - Sicanstudios</title>
@@ -109,7 +108,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 <p>Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your <a href="http://scriptogr.am/admin/">admin page</a> and click the button <em>Synchronize</em> to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the <code>posts</code> folder.</p>
 
-<p><img src="https://dl.dropbox.com/u/48552248/websites/sicanstudios/blog/assets/scriptogram-publish-button.jpg" alt="scriptogram synchronize button" /></p>
+<p><img src="http://sicanstudios.com/images/blog/assets/scriptogram-publish-button.jpg" alt="scriptogram synchronize button" /></p>
 
 <h2>Adding a custom domain name</h2>
 
@@ -122,7 +121,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 <p>If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the <em>“DNS Manager”</em> section. Click on <em>“Launch”</em>.</p>
 
-<p><img src="https://dl.dropbox.com/u/48552248/websites/sicanstudios/blog/assets/godaddy-dns-editor.jpg" alt="godaddy dns editor" /></p>
+<p><img src="http://sicanstudios.com/images/blog/assets/godaddy-dns-editor.jpg" alt="godaddy dns editor" /></p>
 
 <p>Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like <code>http://www.sicanstudios.com</code> or <code>http://blog.sicanstudios.com</code> you would simply create a <code>CNAME</code> record pointing to <code>scriptogr.am</code>. If you are using a top-level domain like <code>http://sicanstudios.com</code>, you must use an <code>A (Host)</code> record pointing to <code>50.116.1.192</code>. There’s no need to add a <code>CNAME</code> record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).</p>
 
@@ -134,69 +133,71 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 <pre><code>&lt;body&gt;
     &lt;!-- Get posts --&gt;
-
+    {{#posts}}
 
         &lt;!-- Outputs the home page --&gt;
-
+        {{#is_index}}
             ...
-
+        {{/is_index}}
 
         &lt;!-- Outputs the "Blog post" --&gt;
-
+        {{#is_post}}
             ...
-
+        {{/is_post}}
 
         &lt;!-- Outputs the "Page" --&gt;
-
+        {{#is_page}}
             ...
-
+        {{/is_page}}
 
         &lt;!-- Outputs the "Archive" page --&gt;
-
+        {{#is_archive}}
             ...
+        {{/is_archive}}
 
-
-
+    {{/posts}}
     &lt;!-- End posts --&gt;
 &lt;/body&gt;
 </code></pre>
 
-<p>Inside each block you can add whatever HTML you want to show in that particular page. There are a handful of shortcodes available (like for example: `` will output the content of the blog post/page), that can be found at the bottom of <a href="http://support.scriptogr.am/kb/creating-themes/creating-or-editing-a-theme">this page</a>. Here’s the code I have for the blog post (i.e. this page you’re currently viewing):</p>
+<p>Inside each block you can add whatever HTML you want to show in that particular page. There are a handful of shortcodes available (like for example: <code>{{content}}</code> will output the content of the blog post/page), that can be found at the bottom of <a href="http://support.scriptogr.am/kb/creating-themes/creating-or-editing-a-theme">this page</a>. Here’s the code I have for the blog post (i.e. this page you’re currently viewing):</p>
 
-<pre><code>    &lt;div class="post"&gt;
+<pre><code>{{#is_post}}
+    &lt;div class="post"&gt;
         &lt;div class="content"&gt;
 
             &lt;div id="continue_reading" class="title"&gt;
-                &lt;h1&gt;&lt;span&gt;&lt;/span&gt;&lt;/h1&gt;
+                &lt;h1&gt;&lt;span&gt;{{title}}&lt;/span&gt;&lt;/h1&gt;
             &lt;/div&gt;
 
             &lt;div class="body-post"&gt;
-
+                {{content}}
 
                 &lt;!-- if tags --&gt;
-
+                {{#if_tags}}
                     &lt;ul class="tags"&gt;
-
-                            &lt;li&gt;&lt;a href="/tag/"&gt;&lt;/a&gt;&lt;/li&gt;
-
+                        {{#tags}}
+                            &lt;li&gt;&lt;a href="{{base_url}}/tag/{{name}}"&gt;{{name}}&lt;/a&gt;&lt;/li&gt;
+                        {{/tags}}
                     &lt;/ul&gt;   
-
+                {{/if_tags}}
                 &lt;!-- endif --&gt;
 
             &lt;/div&gt;&lt;!--end body--&gt;
         &lt;/div&gt;&lt;!--end content--&gt;
     &lt;/div&gt;&lt;!--end post--&gt;
     &lt;p class="more"&gt;&lt;a href="http://blog.sicanstudios.com/archive"&gt;More articles in the Archive →&lt;/a&gt;&lt;/p&gt;
+{{/is_post}}
 </code></pre>
 
 <p>Above and below those conditional statements, the code for the <code>header</code> and <code>footer</code> is inserted (because I want that code to be applied to every page). And at the bottom, before closing the <code>&lt;/body&gt;</code> tag, I add some JavaScript code for smooth font resizing and Google Analytics tracker.</p>
 
 <p>Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (<code>&lt;h1&gt;</code> tags, title, descriptions, etc.). I want to show you a better way to display the <code>&lt;title&gt;</code> of the blog:</p>
 
-<pre><code>&lt;title&gt;Blog of SicanStudiosArchive of the Blog of SicanStudios&lt;/title&gt;
+<pre><code>&lt;title&gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of SicanStudios{{/is_index}}{{#is_archive}}Archive of the Blog of SicanStudios{{/is_archive}}&lt;/title&gt;
 </code></pre>
 
-<p>We’re saying if the page is a post, display the `` of the post, if it’s the homepage, display <em>“Blog of SicanStudios”</em> and if it’s an archive, display <em>“Archive of the Blog of SicanStudios”</em>.</p>
+<p>We’re saying if the page is a post, display the <code>{{title}}</code> of the post, if it’s the homepage, display <em>“Blog of SicanStudios”</em> and if it’s an archive, display <em>“Archive of the Blog of SicanStudios”</em>.</p>
 
 <p>This was a brief overview of the themes in Scriptogr.am. If you’re having any trouble, please visit the <a href="http://support.scriptogr.am/kb">FAQ</a> or the <a href="http://support.scriptogr.am/discussions">forums</a>.</p>
 

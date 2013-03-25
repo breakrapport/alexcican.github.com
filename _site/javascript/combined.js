@@ -10,6 +10,25 @@ var anchoredLink,assetsChanged,browserCompatibleDocumentParser,browserIsntBuggy,
 
 
 
+// save website to cache
+window.addEventListener('load', function(e) {
+
+  window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      // Browser downloaded a new app cache.
+      // Swap it in and reload the page to get the new hotness.
+      window.applicationCache.swapCache();
+      if (confirm('A new version of this site is available. Load it?')) {
+        window.location.reload();
+      }
+    } else {
+      // Manifest didn't changed. Nothing new to server.
+    }
+  }, false);
+
+}, false);
+
+
 
 // hides address bar on iPhone
 if (navigator.userAgent.match(/iPhone/i)) {
@@ -20,6 +39,8 @@ if (navigator.userAgent.match(/iPhone/i)) {
     }, 500);
   });
 }
+
+
 
 // check to see if supports LocalStorage
 function supportsLocalStorage() {
@@ -150,6 +171,8 @@ $('body').mouseup(function(e) {
   }
 })
 
+
+
 $('body').keydown(function(e) {
   if (e.metaKey || e.ctrlKey) {
     // do nothing
@@ -173,30 +196,36 @@ $('body').keydown(function(e) {
     }
 
     // work (w) / home (h)
-    if ((e.keyCode === 87) || (e.keyCode === 72))
+    if ((e.keyCode === 87) || (e.keyCode === 72)) {
       var url = $('.work').attr("href");
       if (url !== undefined)
         window.location = url;
+    }
 
     // about (a)
-    if (e.keyCode === 65)
+    if (e.keyCode === 65) {
       var url = $('.about').attr("href");
       if (url !== undefined)
         window.location = url;
+    }
 
     // blog (b)
-    if (e.keyCode === 66)
+    if (e.keyCode === 66) {
       var url = $('.blog').attr("href");
       if (url !== undefined)
         window.location = url;
+    }
 
     // contact (c) / mail (m)
-    if ((e.keyCode === 67) || (e.keyCode === 77))
+    if ((e.keyCode === 67) || (e.keyCode === 77)) {
       var url = $('.contact').attr("href");
       if (url !== undefined)
         window.location = url;
+    }
   }
 })
+
+
 
 var expanded = false,
     scroll_position;

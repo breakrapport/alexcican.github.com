@@ -1,8 +1,7 @@
 
 
 <!doctype html>
-<!-- <html manifest="cache.appcache"> -->
-<!-- <html manifest="cache.appcache"> -->
+<html manifest="http://sicanstudios.com/cache.appcache">
 <!--[if IE 9 ]><html class="ie9"><![endif]-->
 <head>
   <title>Displaying recent posts on Scriptogr.am - Sicanstudios</title>
@@ -107,15 +106,17 @@
 <p>at the location(s) where you want the recent posts container to be displayed. For example, I have it at the bottom of the <code>index</code> and <code>post</code> page:</p>
 
 <pre><code>   &lt;!-- index --&gt;
-
-
+   {{#is_index}}
+   {{#first}}
     &lt;div class="post"&gt;
-    &lt;h1&gt;&lt;a href="" title=""&gt;&lt;/a&gt;&lt;/h1&gt;
-
+    &lt;h1&gt;&lt;a href="{{permalink}}" title="{{title}}"&gt;{{title}}&lt;/a&gt;&lt;/h1&gt;
+    {{content}}
     &lt;h2&gt;Recent articles&lt;/h2&gt;
     &lt;div id="recent-articles"&gt;Loading…&lt;/div&gt;
     &lt;p&gt;More articles in the &lt;a href="http://blog.sicanstudios.com/archive" title="Archive"&gt;Archive&lt;/a&gt;&lt;/p&gt;
     &lt;/div&gt;
+  {{/first}}
+  {{/is_index}}
 </code></pre>
 
 <h2>Further customisation</h2>
