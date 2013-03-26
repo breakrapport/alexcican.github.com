@@ -1302,6 +1302,10 @@ footer {
     padding-left: 1px;
   }
 
+  .text img {
+    max-width: 736px;
+  }
+
   /* fixes the height of cover image and content under it */
   .cover_image {
     height: 544px;
