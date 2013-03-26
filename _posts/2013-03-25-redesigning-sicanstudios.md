@@ -15,7 +15,7 @@ I used to hate big type for websites. Until I switched to a 13” 2013 MacBook A
 
 <a href="http://sicanstudios.com/images/blog/assets/sicanstudios-responsive.png" class="img" target="_blank"><img src="http://sicanstudios.com/images/blog/assets/sicanstudios-responsive.png" alt="sicastudios responsive" /></a>
 
-The type of this site is not ginormous. When the browser has a width above 1260px, it features a font size of 24px for the body, under 1260px and above 768px (tablets and old PCs), it features a font size of 22px, and for mobile a font size of 18px. I think these font sizes provide the optimum reading experience on each device.
+The type of this site is not ginormous. When the browser has a width above 1260px, it features a font size of 22px for the body, under 1260px and above 768px (tablets and old PCs), it features a font size of 20px, and for mobile a font size of 18px. I think these font sizes provide the optimum reading experience on each device.
 
 ##Browsing the portfolio
 In the past, my portfolio was laid out in a single central column, having to scroll down to see more projects. Checking analytics, I discovered that most people would click on the first project thumb, they would get redirected to the project’s page, and never return back to browse the other projects.
