@@ -1,4 +1,4 @@
-## This is the data for my website
+## This is the data of my website
 Got tired of hosting companies (last one was a VPS Linode), their crappy customer support and losing files (got hacked, files got erased &#61; no website). So, now I host my website on GitHub from my DropBox folder (so I can have access to it from anywhere).
 
 I wrote about how I moved my websites [in this article](http://sicanstudios.com/post/guide-hosting-website-dropbox-github).
