@@ -31,6 +31,7 @@ designs: '
 ---
 
 Alt-Foundry is a company that sells fonts. I was hired to designed and develop a complete e-commerce solution that would act as a platform for selling and promoting their fonts.
+<!--more-->
 
 ##What I learned
 I got a ton of back-end (PHP) experience from this project. I learned how challenging it is to create an e-commerce platform on top of WordPress. I also learned how to create images with PHP on the fly (implemented when live-testing each font). I also learned and applied online shopping cart best practices (one-click checkout, etc.).

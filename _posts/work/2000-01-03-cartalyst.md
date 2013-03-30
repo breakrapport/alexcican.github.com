@@ -31,6 +31,7 @@ designs: '
 ---
 
 Cartalyst is developer centric, open source e-commerce engine with a strong focus on exemplary documentation, community support, and framework. They hired me to design and develop their website.
+<!--more-->
 
 ##What I learned
 From this project I learned that a mid-size website (10-15 pages) can take a long time to develop, especially when implementing a responsive design (mobile, tablet, desktop). Nowadays, I ask and examine if a responsive website is absolutely necessary prior to starting the design of the site. By checking the website analytics and evaluating the percentage of people browsing from a mobile device, is a good indicator if a responsive website is worth it.

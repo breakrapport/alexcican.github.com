@@ -26,6 +26,8 @@ designs: '
 '
 ---
 TimeWasted is a web app that calculates how much time you’ve wasted from your life watching TV shows.
+<!--more-->
+
 ##What I learned
 I learned how to create a modern web application that would prove useful to the the user. I learned to use JavaScript (Ajax) to fetch database items, interact, and display them. I became familiar with all the different mobile browser quirks, and their workarounds and fixes. Finally, I tried to mimic the Google search engine by making searching for shows intuitive and easy (read below).
 
