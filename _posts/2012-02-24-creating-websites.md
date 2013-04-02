@@ -5,55 +5,65 @@ cover: '<img class="white" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 ---
 {{ page.cover }}
 
-The Internet is expanding and with it, the market and the business opportunities. More than ever, I see ads claiming to show you how to make shitloads of money from working at home, via the Internet. One way to do that is to work as a freelance website designer/developer. This post is intended to expose the risks of this industry and what I’ve learned from working in the field.
+The Internet is becoming mainstream, and business opportunities are growing fast. More than ever, I see ads claiming to show you how to make shitloads of money by working from home, via the Internet. One way is by working as a **freelance website designer/developer**. I wrote this post in order to expose the risks of this industry and what I’ve learned from working in the field.
 <!--more-->
 
-In this post, I assume you will be dealing with both the design and the development of the websites yourself, as I have.
+Throughout the post, I will assume you will be dealing with both the design and the development of websites, as I have been doing.
 
 ##Reason #1 – It takes time
+It takes a long time to **learn how to design**, how to see. In order to design a good website, you have to learn how to compose the elements of the page, what colour palette to use, typographic hierarchy, font pairing, in one word: *design*.
 
-It takes a long time to master the skills of HTML and CSS. Yes, you may learn them in a flash (they’re easy languages to learn) but it takes time to master them. Remember that you also have to learn how to design a website, how to compose the elements of the page, what colours to use, what fonts to use, what backgrounds, and the list is endless. In the beginning it will be very hard to get it right. With time, practice and experience, you train your eye to see these things which help you create “better” websites. Around that time, your hourly rate will also go up.
+But designing websites doesn’t end there. You must also learn how to write good copy, headlines that attract the attention of the user, what makes users click, design for older browsers and devices, how to make a site usable, accessible, analyse analytics, and so on.
 
-But, the constant improvement and growth of technology makes it hard for you to keep up. The browsers constantly change, new ones also emerge. So, you might be thrilled having just finished a new website and just for fun you decide to test your website on other browsers; you discover that in one browser, one particular browser…, your website isn’t displaying properly. On you go in search for hacks and solutions. 
+If you’re also coding the website, it takes time to master HTML and CSS. You might learn them in a few days, they’re easy languages to learn, but it takes time to master them. 
 
-Mobile phones have entered the game now, meaning that you also have to learn how to optimise your website for mobile phones—small file sizes better for fast loading times, keep in mind the small screen (legibility) and many more…. HTML5 along with CSS3 have also entered the arena. Go and find out more about these.
+In the beginning it will be hard to get it right. With time and practice, you will train your eye to see good design and you will create better websites. Around that time, your pay rate will also go up.
 
-More companies and individuals nowadays want to publish their content themselves. They demand that you use a CMS (Content Management System) to develop their website on. On you go to learn PHP, MySQL, how to create a theme, what CMS to use, how to install it etc. Because of the trend, companies now also want to be active on social media, so they request from you to create them a customised page for their Facebook Fan page on which visitors will land first. They read somewhere that this would help them expand their brand and engage more with their visitors, increasing thus their fan base. On you go to learn FBML (Facebook Markup Language). Lastly, they insist in creating a responsive design for their website. On you go in search for ways to do that.
+The super-fast growth of web technology, makes it hard to keep up. Browsers constantly evolve, new ones also emerge. You might be thrilled having just finished a new website, and just for fun you decide to test the website with other browsers; you discover that in one browser, one particular browser…, your website isn’t displaying properly. Now you have to search for hacks and solutions.
 
-There’s a strong possibility that by the time you’ve learned and mastered all those skills, the trends would have already changed. So, now you are left behind, watching helplessly how others who ride the “trend wave” get all the clients.
+Mobile phones have entered the game, and now you also have to learn how to optimise your website for mobile phones—small file sizes for fast loading times, big type and contrast for small screens, and so on.
+
+There’s a strong possibility that by the time you’ve learned and mastered all these skills, the trends would have already changed. Now you are left behind, watching helplessly how others who ride the “trend wave” get all the clients.
 
 ![old website](http://sicanstudios.com/images/blog/assets/website_1999.gif)
 
-There is a hidden pitfall, which goes by: “I don’t follow trends”. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients…
+There is a hidden pitfall, which goes by *“I don’t follow trends”*. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients. Adapt or die…
 
 ##Reason #2 – The competition
+You’ll find out sooner or later that **competition is fierce**! I often think that the Internet is filled only with website designers and developers! Wherever I turn my head—digitally of course—there is a dude or a dudette offering website design services. 
 
-I’m telling you up front: the competition is fierce! I often feel that the Internet is filled with just website designers and developers! Wherever I turn my head — digitally of course — there is a dude or a dudette offering website design services. Now, whether they know how to design and develop a website is irrelevant. Yes, completely irrelevant. Because there are many clients; hell, the majority of them who will want a website done for the minimum cost. It doesn’t matter if it’s going to cost them more in the long run. They just don’t see the forest behind the tree. And to share with you a trade secret: avoid clients that say they don’t have the budget! They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, add a “what’s your budget” option if the message is work related. Problem solved!
+Now, whether they know how to design and develop a website is irrelevant. Yes, completely irrelevant. Because there are many clients; hell, the majority of them who will want a website done for the minimum cost. It doesn’t matter if it’s going to cost them more in the long run. They just don’t see the forest behind the tree. 
 
-And get this: there is always going to be someone who can do the job faster, or cheaper, or even better than you. This applies to any business. But in the website creation business, the amount of people who can do it faster and cheaper than you is infinitely larger!
+I want to share with you a trade secret: **avoid clients who say they don’t have the budget**. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a *“what’s your budget”* input field, if the message is work related. I wrote more on [the lost art of pricing and negotiating](http://sicanstudios.com/post/pricing-negotiating/).
 
-Frankly, it is too crowded and we don’t need _another one_ “joining us”! Don’t get me wrong; join the website development business, but don’t say I didn’t warn you and also don’t expect to become a millionaire…
+And remember this: **there is always going to be someone who can do the job faster, or cheaper, or even better than you**. This applies to any business. But in the website creation business, the amount of people who can do it faster and cheaper than you is infinitely larger! So you have to differentiate yourself, and stand out from the crowd.
 
 ##Reason #3 – There are no standards
+There are certain standards and quality controls that you need to follow when manufacturing a laptop, for example. From the client’s perspective, there is also a standard of _price versus quality_.
 
-There are certain standards and quality controls that you need to follow when manufacturing a laptop, for example. From the client’s perspective, there is also a standard of _price versus quality_. You know that if you want to buy a good laptop you are required to spend something in the range of $600 – $1000. If you want a “top of the range” laptop you will go for an Apple MacBook Pro or an Alienware and expect to pay somewhere in the range of $1200 – $7000. My point is that you can estimate the value and cost. Furthermore, you can even consult with the plethora of websites that review laptops and choose the best laptop based on their tests, maximising your value for money, and minimising risk.
+You know that if you want to buy a good laptop you are required to spend something between $600 – $1000. If you want a “top of the range” laptop you will go for an Apple MacBook Pro, or an Alienware, and expect to pay something between $1200 – $7000. My point is that you can estimate the value and cost.
 
-This kind of standard, the baseline price you need to pay for a quality product, is inexistent with websites. You can pay something from $0 ([carbonmade.com](http://carbonmade.com/), [webs.com](http://www.webs.com/), [freewebsites.com](http://www.freewebsites.com/), [wix.com](http://www.wix.com/)) to $45 – $159 (PSD to HTML: [xhtmlchop.com](http://www.xhtmlchop.com/), [psd2html.com](http://www.psd2html.com/)) to $25,000 (for a full e-commerce hand crafted, custom made with extra benefits). There is no price point limit! Apart from this being confusing to clients, it is also confusing to you, the developer. You don’t know how much to charge; hell you aren’t even sure if you should charge by the hour or by the project!
+This kind of standard, the baseline price you need to pay for a quality product, is **inexistent with websites**. You can pay something from $0 ([carbonmade.com](http://carbonmade.com/), [webs.com](http://www.webs.com/), [wix.com](http://www.wix.com/)), to $45 – $159 (PSD to HTML: [xhtmlchop.com](http://www.xhtmlchop.com/), [psd2html.com](http://www.psd2html.com/)), to $50,000 (for a full e-commerce hand crafted, custom made with extra features). There is no price point limit! Apart from this being confusing to clients, it is also confusing to you, the website creator. You don’t know how much to charge; hell you aren’t even sure if you should charge by the hour or by the project!
 
-To expand an aforementioned point: quality controls. There aren’t any in the websites’ world. You can create a website without a `DOCTYPE` as long as it renders, it’s OK; now, _gimme your money!_
+No matter how crappy the coding is, if you deliver, the client will say thank you. That is until they realise that blind users can’t browse their website, or that older versions of browsers don’t even render the website, or that conversion rates suck and users are not returning back. Too late for that, the bird has left the nest…
 
-No matter how crappy the coding is, if you deliver, the client won’t say no. That is until they realise that blind users can’t browse their website or that older versions of browsers don’t even render the website (I’m not saying websites should look exactly the same across all browsers; that’s impossible). Too late for that though; the bird has left the nest.
-
-There is another possibility that the client could be well informed and demand from you to ensure that the website renders in other browsers, deals with long loading times, has a mobile version, has a `SEO` thought construction, improves conversion rates, and many more. This is what separates the professionals from the amateurs. Here is where true professionals can shine, in a PRO medium. The downside is that there aren’t many clients like that.
-
-Want to join this chaotic business? Be my guest! But again, don’t say I didn’t warn you!
+Wrapping your head around all these issues can be overwhelming. Want to join this chaotic business? Be my guest! But again, don’t say I didn’t warn you!
 
 ##Reason #4 – The Client
+This one is tied with the previous reason, the _lack of standards_. Because of a utopian perception, the client **thinks they can ask** for the moon and the stars, and be given to them. Moreover, they make an outrageous request and offer to repay you with an X amount of money. When you say that it’s impossible because you need at least 3X to complete their request, they threaten to go to someone else. At this point you have two options: 
 
-This one is tied in with the previous reason, the _lack of standards_. Because of a utopian perception of things, the client assumes that they can ask for the moon and the stars and be given to them. Moreover, they make an outrageous request and offer to repay you with the X amount of money. As soon as you say that it’s impossible and that you need at least 3X to complete their request, they threaten to go to someone else. Now it depends on you; if you are low on cash you will suck up and do the job; if you are a kick-ass person—a starving kick-ass person or not, it doesn’t matter—you will give them the finger and move on. There is one personal trait you need to improve in this kind of business: dealing with clients. Sure, bad clients exist anywhere but if you join this business you will discover that there is no shortage of them here.
+1. if you are low on cash you will suck up and do the job.
+2. if you are a kick-ass person (a starving kick-ass person or not, it doesn’t matter), you will show them the finger and move on.
+
+There is one personal trait you need to improve in this kind of business: **dealing with clients**. Sure, bad clients exist anywhere but if you join this business you will discover that there is no shortage of them here.
+
+Don’t get ripped off by clients. Use contracts to avoid headaches in case something goes wrong, and ask for payment up front—depending on the scale of the project either 50%, 30%, or 20% of the total price.
 
 ##Reason #5 – It can get lonely
+Being a one man army, jack of all trades can **become tiresome** at some point. Working infinite hours in front of a computer (developer, designer), dealing with money (accountant), dealing with problems (IT support), dealing with clients (support/secretary), etc. can burn you out in no time. You have to develop all the aforementioned qualities, and have a strong character to keep going.
 
-Being a one man army, jack of all trades can become tiresome at some point. Working infinite hours in front of a computer (developer, designer), dealing with money (accountant), dealing with problems (IT support), dealing with clients (support/secretary), etc. can burn you out in no time. As you can see, you need to develop many qualities and have strong character. There won’t be anyone behind you (or “above” you) checking to see if you’ve done the work. Not to mention that your work/life balance will be disrupted. But if you are like me and you can get more done by eliminating distractions such as coffee breaks, telephone interruptions, meetings, colleagues, then this profession might be worth another look.
+> If you’re going through hell, keep going - Winston Churchill 
 
-That is in short, my experience with freelancing. If you’d like to “join us” and want to learn more on freelancing, where to get started, etc. ask me anything: <a href="http://twitter.com/sican">via Twitter</a>.
+There won’t be anyone behind you (or “above” you) checking to see if you’ve done the work. Your work/life balance will also get disrupted. But if you’re like me and you can get more done by eliminating distractions such as coffee breaks, telephone interruptions, meetings, colleagues, then this profession might be worth trying it out.
+
+If you’d like to join *us*, and want to learn more about freelancing, where to get started, books and resources, etc. ask me anything [on Twitter](http://twitter.com/sican).
