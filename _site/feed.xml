@@ -1940,7 +1940,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 RewriteRule (.*)$ /$1/ [R=301,L]
-Removing both extensions
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Some people asked how you can remove the extension from both HTML and PHP files. I haven’t got a coding solution for that. But, you could just change the extension of your HTML file from &lt;code&gt;.html&lt;/code&gt; or &lt;code&gt;.htm&lt;/code&gt; to &lt;code&gt;.php&lt;/code&gt; and add the code for removing the &lt;code&gt;.php&lt;/code&gt; extension.&lt;/p&gt;

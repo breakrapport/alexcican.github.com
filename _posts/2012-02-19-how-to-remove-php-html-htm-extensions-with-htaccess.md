@@ -60,7 +60,6 @@ I received many requests asking how to add a trailing slash at the end. Ignore t
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 	RewriteRule (.*)$ /$1/ [R=301,L]
-	Removing both extensions
 
 Some people asked how you can remove the extension from both HTML and PHP files. I haven’t got a coding solution for that. But, you could just change the extension of your HTML file from `.html` or `.htm` to `.php` and add the code for removing the `.php` extension.
 
