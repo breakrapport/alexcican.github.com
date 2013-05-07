@@ -150,7 +150,7 @@ $('.design_images').hover(function() {
   })
   width = 99 / number;
   $(this).children('.image_container').css('width', width+'%');
-  $(this).children('.cover_image').css('display', 'none');
+  $(this).children('.cover_image').fadeOut('500');
 }, function() {
     // on mouseout shows the cover image again
     $(this).children('.cover_image').css('display', 'block');

@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2010-03-04:v0.52
+# 2010-03-04:v0.53
 
 # Explicitly cached entries
 index.html
@@ -16,4 +16,4 @@ NETWORK:
 
 # Additional resources to cache
 CACHE:
-images/about@2x.jpg
+images/alex-cican@2x.jpg
