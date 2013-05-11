@@ -323,3 +323,8 @@ function hidesCaseStudy() {
   expanded = false;
   return false;
 }
+
+// round reading time
+$(".reading_time").text(function (index, value) {
+  return Math.round(parseFloat(value));
+});
