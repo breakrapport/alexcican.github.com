@@ -515,7 +515,7 @@ if (screenWidth &amp;gt; 1260) {
 
 &lt;h2&gt;Step 2 - Add script&lt;/h2&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;http://scriptogr.am/dashboard/&quot;&gt;Scriptogr.am dashboard&lt;/a&gt;, go to the &lt;em&gt;Tools&lt;/em&gt; tab, and edit your &lt;code&gt;HTML&lt;/code&gt; theme file. Go at the bottom of the file, before the end of your &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; and add the script below:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&quot;http://scriptogr.am/dashboard/&quot;&gt;Scriptogr.am dashboard&lt;/a&gt;, go to the &lt;em&gt;Tools&lt;/em&gt; tab, and edit your &lt;code&gt;HTML&lt;/code&gt; theme file. Go at the bottom of the file, before the end of the &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, and add &lt;a href=&quot;https://gist.github.com/sican/4753483&quot;&gt;the script&lt;/a&gt; below:&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/sican/4753483.js&quot;&gt;&lt;/script&gt;
 
