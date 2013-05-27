@@ -1338,6 +1338,10 @@ footer {
     height: 384px;
   }
 
+  #about h1 a {
+    display: block;
+  }
+
   /* container has two colours (because of image) */
   #about:before, #about:after {
     height: 100%;
