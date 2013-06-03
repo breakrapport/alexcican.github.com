@@ -8,7 +8,7 @@ cover: '<img class="pink" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4
 I thought I’d mix it up a bit and instead of writing a tutorial, I decided to make a video screencast. In this video tutorial I’ll show you some modern practices on how to make your website look great on retina devices, such as an iPhone 5 or a retina MacBook Pro.
 <!--more-->
 
-##What you’ll learn
+##What you’ll learn 
 From this tutorial you’ll learn how to make your logos and icons infinitely scalable by exporting them as SVG (Scalable Vector Graphics) format. Next, we’ll link the SVG image to the HTML file and talk performance, and how to encode the image into data URL to save an HTTP request. Lastly, you will learn how to export @2x images and how to embed them in CSS with media queries. Finally, we’ll learn about some cool JavaScript plugins that help you with that. Check out the video:
 <iframe src="http://player.vimeo.com/video/59101559?byline=0" width="740" height="416" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/59101559">Making your website look pretty on retina devices</a> from <a href="http://vimeo.com/sican">Alex Cican</a> on Vimeo.</p>
 
