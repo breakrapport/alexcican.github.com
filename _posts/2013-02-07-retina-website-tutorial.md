@@ -15,7 +15,7 @@ From this tutorial you’ll learn how to make your logos and icons infinitely sc
 ##Clarifications from the video (Spoiler Alert)
 1. You can also copy the vector shape directly from Photoshop, paste it into Illustrator, and then export is as SVG. No need to save as PSD if you don’t want to.
 2. The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (`img` tag). For CSS images (`background-image`), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.
-3. In the video I say that I want to target other devices with the CSS3 media query, yet use only a `-webkit` a vendor prefix. That's because I didn’t finish the entire script. Grab it here: [gist.github.com/sican/4726254](http://gist.github.com/sican/4726254).
+3. In the video I say that I want to target other devices with the CSS3 media query, yet use only a `-webkit` a vendor prefix. That's because I didn’t finish the entire script. Grab it here: [gist.github.com/alexcican/4726254](https://gist.github.com/alexcican/4726254).
 
 ##Links from the video
 [DataURL creator](http://dataurl.net/#dataurlmaker)<br/>

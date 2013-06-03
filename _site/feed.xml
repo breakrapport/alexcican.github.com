@@ -122,7 +122,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.google.com/chrome/&quot;&gt;Google Chrome&lt;/a&gt; for browsing&lt;/strong&gt;. Until recently, I was using Safari. The &lt;a href=&quot;http://discover-devtools.codeschool.com/&quot;&gt;Chrome DevTools&lt;/a&gt; made me switch forever.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;SublimeText&lt;/a&gt; for coding&lt;/strong&gt;. I spend my life in it, so I might as well make it look pretty. &lt;a href=&quot;https://gist.github.com/sican/5248905&quot;&gt;Download my User settings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;SublimeText&lt;/a&gt; for coding&lt;/strong&gt;. I spend my life in it, so I might as well make it look pretty. &lt;a href=&quot;https://gist.github.com/alexcican/5248905&quot;&gt;Download my User settings&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/blog/assets/sublime-theme.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/blog/assets/sublime-theme.png&quot; alt=&quot;sublime text theme&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -472,7 +472,7 @@ if (screenWidth &amp;gt; 1260) {
 &lt;ol&gt;
 &lt;li&gt;You can also copy the vector shape directly from Photoshop, paste it into Illustrator, and then export is as SVG. No need to save as PSD if you don’t want to.&lt;/li&gt;
 &lt;li&gt;The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (&lt;code&gt;img&lt;/code&gt; tag). For CSS images (&lt;code&gt;background-image&lt;/code&gt;), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.&lt;/li&gt;
-&lt;li&gt;In the video I say that I want to target other devices with the CSS3 media query, yet use only a &lt;code&gt;-webkit&lt;/code&gt; a vendor prefix. That's because I didn’t finish the entire script. Grab it here: &lt;a href=&quot;http://gist.github.com/sican/4726254&quot;&gt;gist.github.com/sican/4726254&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In the video I say that I want to target other devices with the CSS3 media query, yet use only a &lt;code&gt;-webkit&lt;/code&gt; a vendor prefix. That's because I didn’t finish the entire script. Grab it here: &lt;a href=&quot;https://gist.github.com/alexcican/4726254&quot;&gt;gist.github.com/alexcican/4726254&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 
@@ -515,9 +515,9 @@ if (screenWidth &amp;gt; 1260) {
 
 &lt;h2&gt;Step 2 - Add script&lt;/h2&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;http://scriptogr.am/dashboard/&quot;&gt;Scriptogr.am dashboard&lt;/a&gt;, go to the &lt;em&gt;Tools&lt;/em&gt; tab, and edit your &lt;code&gt;HTML&lt;/code&gt; theme file. Go at the bottom of the file, before the end of the &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, and add &lt;a href=&quot;https://gist.github.com/sican/4753483&quot;&gt;the script&lt;/a&gt; below:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&quot;http://scriptogr.am/dashboard/&quot;&gt;Scriptogr.am dashboard&lt;/a&gt;, go to the &lt;em&gt;Tools&lt;/em&gt; tab, and edit your &lt;code&gt;HTML&lt;/code&gt; theme file. Go at the bottom of the file, before the end of the &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, and add &lt;a href=&quot;https://gist.github.com/alexcican/4753483&quot;&gt;the script&lt;/a&gt; below:&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/sican/4753483.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/alexcican/4753483.js&quot;&gt;&lt;/script&gt;
 
 
 &lt;h2&gt;Step 3 - Personalise script&lt;/h2&gt;

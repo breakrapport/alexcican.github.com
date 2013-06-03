@@ -19,8 +19,8 @@ Find your Scriptogr.am `RSS` feed. It should be in this format:
 	http://scriptogr.am/USERNAME/feed/
 	
 ##Step 2 - Add script
-From the [Scriptogr.am dashboard](http://scriptogr.am/dashboard/), go to the *Tools* tab, and edit your `HTML` theme file. Go at the bottom of the file, before the end of the `</body>` tag, and add [the script](https://gist.github.com/sican/4753483) below:
-<script src="https://gist.github.com/sican/4753483.js"></script>
+From the [Scriptogr.am dashboard](http://scriptogr.am/dashboard/), go to the *Tools* tab, and edit your `HTML` theme file. Go at the bottom of the file, before the end of the `</body>` tag, and add [the script](https://gist.github.com/alexcican/4753483) below:
+<script src="https://gist.github.com/alexcican/4753483.js"></script>
 	
 ##Step 3 - Personalise script
 The bits you have to edit are on **line 8** and **line 59**. Replace bits of code from this line:
