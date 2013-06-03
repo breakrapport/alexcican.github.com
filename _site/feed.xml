@@ -472,7 +472,7 @@ if (screenWidth &amp;gt; 1260) {
 &lt;ol&gt;
 &lt;li&gt;You can also copy the vector shape directly from Photoshop, paste it into Illustrator, and then export is as SVG. No need to save as PSD if you don’t want to.&lt;/li&gt;
 &lt;li&gt;The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (&lt;code&gt;img&lt;/code&gt; tag). For CSS images (&lt;code&gt;background-image&lt;/code&gt;), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.&lt;/li&gt;
-&lt;li&gt;In the video I say that I want to target other devices with the CSS3 media query, yet use only a &lt;code&gt;-webkit&lt;/code&gt; a vendor prefix. That's because I didn’t finish the entire script. Grab it here: &lt;a href=&quot;https://gist.github.com/alexcican/4726254&quot;&gt;gist.github.com/alexcican/4726254&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;In the video I say that I want to target other devices with the CSS3 media query, yet use only a &lt;code&gt;-webkit&lt;/code&gt; a vendor prefix. That's because I didn’t finish the entire script. Grab it here: &lt;a href=&quot;http://gist.github.com/alexcican/4726254&quot;&gt;gist.github.com/alexcican/4726254&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 
