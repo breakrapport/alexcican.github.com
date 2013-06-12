@@ -21,7 +21,7 @@ Imagine you’re from Mars, and in 2013 you’re visiting Earth for the first ti
 
 <img src="http://sicanstudios.com/images/blog/assets/ios-icons.jpg" alt="ios 7 icons" />
 
-What is the purpose of an icon if not to present in a beautiful, detailed, graphical way the functionality of the app? I know what the app is, I can read its title—I just want a beautiful icon to accompany it and make me want to click it. Just because currently there is this trend of “flat design”, it doesn’t mean you have to stick pictograms on backgrounds with rainbow gradients. That’s just kitch<sup>[1](#footnotes)</sup>.
+What is the purpose of an icon if not to present in a beautiful, detailed, graphical way the functionality of the app? I know what the app is, I can read its title—I just want a beautiful icon to accompany it and make me want to click it. Just because currently there is this trend of “flat design”, it doesn’t mean you have to stick pictograms on backgrounds with eye-popping gradients. That’s just kitch<sup>[1](#footnotes)</sup>.
 
 Think about the design aesthetics and how they **improve** or **worsen** the user experience. After all, a beautiful, trendy, golden ratio adherent, user interface that is difficult to use and navigate benefits no one.
 
