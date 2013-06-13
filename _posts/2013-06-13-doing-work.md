@@ -12,13 +12,13 @@ Everything you’ve learned so far, won’t matter unless you pick up your penci
 You need to be disciplined, have a strong work ethic, and show up every day to do the thing you love. If you feel like skipping, and you don’t wake up in the middle of the night thinking “what if I did this?” and in the morning pursuing that crazy idea, then it’s not for you. Passion is the most important catalyst that fuels your drive and keeps you going.
 
 ##Passion?
-Passion can be a great motivator. But motivation only gets you pumped up to start something; it only gets you excited. Unless you are disciplined, committed, have strong habits, then you won’t be able to start the thing you’ve been dreaming of, and you’ll most certainly won’t be able to sustain or complete it.
+Passion can be a great motivator. But motivation only gets you pumped up to start something; it only gets you excited. Unless you are disciplined, committed, have strong habits, then you won’t be able to start the thing you’ve been dreaming of, and you’ll most certainly not be able to sustain or complete it.
 
 ##Adding deadlines
 I get stuff done by adding deadlines to things. I put myself on a deadline to finish that blog post by tonight, complete that project by Friday, deliver that website design in three weeks.
 
 ##To-do list
-Keep a list of things that need to be done. By writing them down, you’re setting them “in stone”—they’re not fragile ideas floating inside your head anymore. I’ve discovered that when I have a “to-do” list, I get more done. And I’m not using fancy software. A simple .txt or .md file synced to Dropbox (so I can access it from other devices), filled with small actions (verbs). Once I’ve completed something, I add “###” to it. For example:
+Keep a list of things that need to be done. By writing them down, you’re setting them “in stone”—they’re not fragile ideas floating inside your head anymore. I’ve discovered that when I have a “to-do” list, I get more done. And I’m not using fancy software. A simple `.txt` or `.md` file synced to Dropbox (so I can access it from other devices), filled with small actions (verbs). Once I’ve completed something, I add “###” to it. For example:
 
 	design checkout pages
 	###upload retina tutorial video 
