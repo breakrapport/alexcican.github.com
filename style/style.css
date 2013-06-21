@@ -124,6 +124,11 @@ a:hover, .copyright a:hover {
   width: 90%;
 }
 
+figcaption {
+  font-size: .875em;
+  font-style: italic;
+}
+
 .yellow {
   background: #ffb800;
 }
@@ -830,6 +835,13 @@ body.expanded .expand_container>div {
   transition: color .4s ease;
 }
 
+#blog section p {
+  -webkit-transition: color .4s ease;
+  -moz-transition: color .4s ease;
+  -o-transition: color .4s ease;
+  transition: color .4s ease;
+}
+
 /* link of blog post text colour */
 #blog section a {
   color: #555;
@@ -840,6 +852,11 @@ body.expanded .expand_container>div {
 /* changes colour of heading on hover */
 #blog section:hover>a>h2 {
   color: #ffb800;
+}
+
+/* changes colour of blog text on hover */
+#blog section:hover>a>p {
+  color: #888;
 }
 
 /* aligns button */
