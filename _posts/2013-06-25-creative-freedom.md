@@ -5,7 +5,7 @@ cover: '<img class="mauve" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 ---
 {{ page.cover }}
 
-Designers are **creative people**. We are messy. I’m not talking about your design process. You might have a factory-like process, be very organised, note everything in your Moleskine notebook, draw the perfect wireframes, keep your layers organised, and stuff like that. This depends on the character of each person. But that’s not how ideas are formed.
+Designers are **creative people**. We are messy. I’m not talking about your design process. You might have a factory-like process, be very organised, note everything in your Moleskine notebook, draw perfect wireframes, keep your layers organised, and stuff like that. This depends on the character of each person. But that’s not how ideas are formed.
 <!--more-->
 
 ##Ideas are fragile
