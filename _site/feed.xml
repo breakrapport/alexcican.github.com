@@ -56,14 +56,14 @@
 
 &lt;h2&gt;Don’t annoy the user&lt;/h2&gt;
 
-&lt;p&gt;Go easy with guiding the user. There’s a thin line between informing the user and showing a too detailed walkthrough of the product. If you cross it, you will annoy the user, and &lt;a href=&quot;http://blog.maxrudberg.com/post/38958984259/if-you-see-a-ui-walkthrough-they-blew-it&quot;&gt;ruin their experience&lt;/a&gt;. Most of the users, when they see a new interface, they like to play with it. Click stuff, open windows, try to break the software, etc. Give them this flexibility by allowing them to skip your tutorial and come back to it later.&lt;/p&gt;
+&lt;p&gt;Go easy with guiding the user, however. There’s a thin line between informing the user and showing a too detailed walkthrough of the product. If you cross it, you will annoy the user, and &lt;a href=&quot;http://blog.maxrudberg.com/post/38958984259/if-you-see-a-ui-walkthrough-they-blew-it&quot;&gt;ruin their experience&lt;/a&gt;. Most users, when they see a new interface, they want to play with it. They want to click stuff, open windows, try to break the software, etc. Give them this flexibility by allowing them to skip your tutorial and come back to it later.&lt;/p&gt;
 
 &lt;h2&gt;Provide visual cues&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/apple-packaging.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Lift the instructions booklet by pulling the semicircle.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;Think how Apple packages their product. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.&lt;/p&gt;
+&lt;p&gt;Think how Apple packages their products. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.&lt;/p&gt;
 
 &lt;p&gt;The same goes for interfaces. Provide the user with visuals which clearly indicate that a button is clickable or there is a drop-down menu for that option. The small stuff add up and make an experience good or bad.&lt;/p&gt;
 

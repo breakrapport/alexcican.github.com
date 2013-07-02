@@ -38,13 +38,13 @@ People like to be guided, i.e. told what to do. A compelling experience guides t
 Vine shows you an interactive tutorial how to record your first Vine, and once you are done with the walkthrough, the video you recorded is ready to be published. They guide the user through these different stages (recording, posting, browsing), seamlessly. Brilliant.
 
 ## Don’t annoy the user
-Go easy with guiding the user. There’s a thin line between informing the user and showing a too detailed walkthrough of the product. If you cross it, you will annoy the user, and [ruin their experience](http://blog.maxrudberg.com/post/38958984259/if-you-see-a-ui-walkthrough-they-blew-it). Most of the users, when they see a new interface, they like to play with it. Click stuff, open windows, try to break the software, etc. Give them this flexibility by allowing them to skip your tutorial and come back to it later.
+Go easy with guiding the user, however. There’s a thin line between informing the user and showing a too detailed walkthrough of the product. If you cross it, you will annoy the user, and [ruin their experience](http://blog.maxrudberg.com/post/38958984259/if-you-see-a-ui-walkthrough-they-blew-it). Most users, when they see a new interface, they want to play with it. They want to click stuff, open windows, try to break the software, etc. Give them this flexibility by allowing them to skip your tutorial and come back to it later.
 
 ## Provide visual cues
 ![](http://sicanstudios.com/images/blog/assets/apple-packaging.jpg)
 <figcaption>Lift the instructions booklet by pulling the semicircle.</figcaption>
 
-Think how Apple packages their product. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.
+Think how Apple packages their products. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.
 
 The same goes for interfaces. Provide the user with visuals which clearly indicate that a button is clickable or there is a drop-down menu for that option. The small stuff add up and make an experience good or bad.
 
